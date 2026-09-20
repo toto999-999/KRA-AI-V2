@@ -8,7 +8,7 @@ from datetime import datetime, timezone, timedelta
 import time
 
 # =========================================================================
-# 프로그램 명칭: KRA전국 승부예상AI_V4.0 (평일 자동 백데이트 & 태그 완성본)
+# 프로그램 명칭: KRA전국 승부예상AI_V4.0 (초고속 다이렉트 패치 완료본)
 # =========================================================================
 VERSION = "KRA전국 승부예상AI_V4.0"
 API_KEY = os.environ.get("KRA_API_KEY", "")
@@ -141,8 +141,9 @@ def fetch_meet_data(meet_code, meet_name, date_str):
     }
 
     try:
+        # 타임아웃을 10초로 줄여 딜레이 방지
         req = urllib.request.Request(full_url, headers=headers)
-        with urllib.request.urlopen(req, timeout=20) as response:
+        with urllib.request.urlopen(req, timeout=10) as response:
             xml_data = response.read()
 
         root = ET.fromstring(xml_data)
@@ -265,17 +266,17 @@ def fetch_meet_data(meet_code, meet_name, date_str):
                 except:
                     pass
 
-                # 4. [신규] 스피드 지수
+                # 4. 스피드 지수
                 s_bonus, s_tags = calculate_speed_rating(h["rc_time"], dist)
                 score += s_bonus
                 tags.extend(s_tags)
 
-                # 5. [신규] 승급전
+                # 5. 승급전
                 if str(h["pre_ord"]).strip() in ["1", "01"]:
                     score -= 5.0
                     tags.append("승급 첫 도전(검증 필요) 🧱")
 
-                # 6. [신규] G1F 직선주로 스퍼트
+                # 6. G1F 직선주로 스퍼트
                 g_bonus, g_tags = analyze_g1f(h["g1f_time"])
                 score += g_bonus
                 tags.extend(g_tags)
@@ -285,7 +286,7 @@ def fetch_meet_data(meet_code, meet_name, date_str):
                     score += 10.0
                     tags.append("단독 선행 찬스 🚀")
 
-                # 8. [신규] 배당률 앙상블
+                # 8. 배당률 앙상블
                 o_bonus, o_tags, parsed_odds = analyze_odds_and_value(h["win_odds"], score)
                 score += o_bonus
                 tags.extend(o_tags)
@@ -302,30 +303,35 @@ def fetch_meet_data(meet_code, meet_name, date_str):
         print(f"[{meet_name}] 수신 에러: {e}")
         return []
 
+def get_target_race_date():
+    """
+    ⚡ [초고속 요일 계산기]
+    - 금(4), 토(5), 일(6): 오늘 날짜 즉시 반환
+    - 월(0), 화(1), 수(2), 목(3): 헛걸음하지 않고 가장 최근 '일요일' 날짜를 단번에 계산!
+    """
+    now = datetime.now(KST)
+    weekday = now.weekday()
+    if weekday in [4, 5, 6]:
+        return now.strftime("%Y%m%d")
+    
+    # 월(0)이면 1일 전, 화(1)이면 2일 전, 수(2)이면 3일 전, 목(3)이면 4일 전 일요일로 직행
+    days_back = weekday + 1
+    last_sunday = now - timedelta(days=days_back)
+    return last_sunday.strftime("%Y%m%d")
+
 def main():
     if not API_KEY:
         print("❌ KRA_API_KEY 미설정")
         return
 
-    # 🎯 [스마트 백데이트] 오늘부터 거꾸로 과거 5일간을 탐색하여 '가장 최근 경마일'을 자동 포착!
+    # 단 1번에 타겟 날짜를 바로 정조준!
+    target_date = get_target_race_date()
+    print(f"=== [{VERSION}] 타겟 경마일 {target_date} 초고속 정밀 분석 시작 ===")
+
     all_races = []
-    target_date_str = ""
-
-    for day_offset in range(0, 6):
-        test_date = (datetime.now(KST) - timedelta(days=day_offset)).strftime("%Y%m%d")
-        print(f"🔍 경주 데이터 탐색 중: {test_date}...")
-        
-        day_races = []
-        for m_code, m_name in MEET_CONFIG:
-            res = fetch_meet_data(m_code, m_name, test_date)
-            day_races.extend(res)
-            time.sleep(0.5)
-
-        if day_races:
-            all_races = day_races
-            target_date_str = test_date
-            print(f"🎯 최신 경마일 발견 성공: {target_date_str} (총 {len(all_races)}개 경주)")
-            break
+    for m_code, m_name in MEET_CONFIG:
+        res = fetch_meet_data(m_code, m_name, target_date)
+        all_races.extend(res)
 
     if all_races:
         meet_order = {"서울": 1, "부산경남": 2, "영천": 3, "제주": 4}
@@ -335,9 +341,9 @@ def main():
         ))
         with open("race_data.json", "w", encoding="utf-8") as f:
             json.dump(all_races, f, ensure_ascii=False, indent=2)
-        print(f"🎉 성공: [{VERSION}] 최신 {target_date_str} 데이터 분석 갱신 완료!")
+        print(f"🎉 성공: [{VERSION}] {target_date} 경주 데이터 초고속 갱신 완료!")
     else:
-        print("최근 5일간 수신된 경주 데이터가 없습니다.")
+        print("데이터를 가져오지 못했습니다.")
 
 if __name__ == "__main__":
     main()
