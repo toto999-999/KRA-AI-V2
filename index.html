@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>KRA전국 승부예상AI_V2.0</title>
+    <title>KRA전국 승부예상AI_V2.5</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; }
         body { background-color: #f4f6f9; color: #333; padding-bottom: 30px; }
@@ -46,13 +46,16 @@
         .horse-card.rank-2 { border-left-color: #f4a261; }
         .horse-card.rank-3 { border-left-color: #2a9d8f; }
         
-        .gate-no { width: 36px; height: 36px; background-color: #f1f3f5; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.05rem; font-weight: 800; margin-right: 12px; flex-shrink: 0; }
+        .gate-no { width: 38px; height: 38px; background-color: #f1f3f5; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.1rem; font-weight: 800; margin-right: 12px; flex-shrink: 0; }
         .horse-card.rank-1 .gate-no { background-color: #e63946; color: white; }
         
         .horse-info { flex-grow: 1; }
-        .horse-name { font-size: 0.95rem; font-weight: bold; margin-bottom: 3px; display: flex; align-items: center; gap: 6px; }
-        .jockey-name { font-size: 0.78rem; color: #666; }
-        .score-info { text-align: right; flex-shrink: 0; }
+        .horse-name { font-size: 0.95rem; font-weight: bold; margin-bottom: 3px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+        .jockey-name { font-size: 0.78rem; color: #666; margin-bottom: 4px; }
+        .tag-list { display: flex; gap: 4px; flex-wrap: wrap; }
+        .ai-tag { font-size: 0.68rem; background: #eef2f7; color: #2a5298; padding: 1px 6px; border-radius: 4px; font-weight: 600; }
+        
+        .score-info { text-align: right; flex-shrink: 0; margin-left: 8px; }
         .win-rate { font-size: 1.15rem; font-weight: 800; color: #1e3c72; }
         .horse-card.rank-1 .win-rate { color: #e63946; }
 
@@ -63,7 +66,7 @@
 </head>
 <body>
     <header>
-        <h1>🐎 KRA전국 승부예상AI_V2.0</h1>
+        <h1>🐎 KRA전국 승부예상AI_V2.5</h1>
         <p id="dateInfo">데이터 로딩 중...</p>
     </header>
 
@@ -77,7 +80,7 @@
         </div>
 
         <div class="race-select-card">
-            <span style="font-weight:bold; font-size:0.9rem;">경주장 / 경주 선택</span>
+            <span id="distLabel" style="font-weight:bold; font-size:0.9rem;">경주 선택</span>
             <select id="raceSelect" onchange="changeRace()"></select>
         </div>
 
@@ -101,11 +104,12 @@
                 data.forEach((r, idx) => {
                     const opt = document.createElement('option');
                     opt.value = idx;
-                    opt.textContent = `[${r.meet_name}] ${r.race_no}경주`;
+                    const dStr = r.distance ? ` (${r.distance}m)` : '';
+                    opt.textContent = `[${r.meet_name}] ${r.race_no}R${dStr}`;
                     select.appendChild(opt);
                 });
 
-                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V2.0 스마트 분석`;
+                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V2.5 고급 통계 분석`;
                 renderRace(0);
             })
             .catch(err => {
@@ -119,7 +123,10 @@
             const bannerTitle = document.getElementById('bannerTitle');
             const hitTag = document.getElementById('hitStatusTag');
             const recBox = document.getElementById('aiRecommendation');
+            const distLabel = document.getElementById('distLabel');
             list.innerHTML = '';
+
+            distLabel.textContent = `경주 (${race.distance || '1400'}m)`;
 
             const h1 = race.horses[0];
             const h2 = race.horses[1];
@@ -169,6 +176,11 @@
 
                 const resultStatus = isNaN(ordNum) ? '경기 전' : `실제 ${ordNum}착`;
 
+                let tagsHtml = '';
+                if (h.ai_tags && h.ai_tags.length > 0) {
+                    tagsHtml = '<div class="tag-list">' + h.ai_tags.map(t => `<span class="ai-tag">${t}</span>`).join('') + '</div>';
+                }
+
                 list.innerHTML += `
                     <div class="horse-card ${rankClass}">
                         <div class="gate-no">${h.gate}</div>
@@ -177,6 +189,7 @@
                                 ${h.name} ${badgeHtml}
                             </div>
                             <div class="jockey-name">${h.jockey} 기수 | ${h.trainer} 조교 (${h.weight}kg)</div>
+                            ${tagsHtml}
                         </div>
                         <div class="score-info">
                             <div class="win-rate">${h.ai_score}점</div>
