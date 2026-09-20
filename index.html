@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>KRA전국 승부예상AI_V3.0</title>
+    <title>KRA전국 승부예상AI_V4.0</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; }
         body { background-color: #f4f6f9; color: #333; padding-bottom: 30px; }
@@ -54,10 +54,12 @@
         .jockey-name { font-size: 0.78rem; color: #666; margin-bottom: 4px; }
         .tag-list { display: flex; gap: 4px; flex-wrap: wrap; }
         .ai-tag { font-size: 0.68rem; background: #eef2f7; color: #2a5298; padding: 1px 6px; border-radius: 4px; font-weight: 600; }
+        .ai-tag.gold-tag { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; font-weight: 800; }
         
         .score-info { text-align: right; flex-shrink: 0; margin-left: 8px; }
         .win-rate { font-size: 1.15rem; font-weight: 800; color: #1e3c72; }
         .horse-card.rank-1 .win-rate { color: #e63946; }
+        .odds-tag { font-size: 0.72rem; color: #e63946; font-weight: bold; margin-top: 2px; }
 
         .badge-1st { background-color: #ffd700; color: #7a5800; font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; }
         .badge-2nd { background-color: #c0c0c0; color: #333; font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; }
@@ -66,7 +68,7 @@
 </head>
 <body>
     <header>
-        <h1>🐎 KRA전국 승부예상AI_V3.0</h1>
+        <h1>🐎 KRA전국 승부예상AI_V4.0</h1>
         <p id="dateInfo">데이터 로딩 중...</p>
     </header>
 
@@ -110,7 +112,7 @@
                     select.appendChild(opt);
                 });
 
-                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V3.0 프로페셔널 분석`;
+                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V4.0 스피드·앙상블 분석`;
                 renderRace(0);
             })
             .catch(err => {
@@ -179,8 +181,13 @@
 
                 let tagsHtml = '';
                 if (h.ai_tags && h.ai_tags.length > 0) {
-                    tagsHtml = '<div class="tag-list">' + h.ai_tags.map(t => `<span class="ai-tag">${t}</span>`).join('') + '</div>';
+                    tagsHtml = '<div class="tag-list">' + h.ai_tags.map(t => {
+                        const isGold = t.includes('꿀배당') || t.includes('스피드');
+                        return `<span class="ai-tag ${isGold ? 'gold-tag' : ''}">${t}</span>`;
+                    }).join('') + '</div>';
                 }
+
+                const oddsText = (h.odds_display && h.odds_display !== '-') ? `단승 ${h.odds_display}` : '';
 
                 list.innerHTML += `
                     <div class="horse-card ${rankClass}">
@@ -195,6 +202,7 @@
                         <div class="score-info">
                             <div class="win-rate">${h.ai_score}점</div>
                             <div style="font-size:0.7rem; color:#888;">예상 ${i+1}위 (${resultStatus})</div>
+                            <div class="odds-tag">${oddsText}</div>
                         </div>
                     </div>
                 `;
