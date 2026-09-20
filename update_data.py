@@ -7,10 +7,10 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 import time
 
-# ==============================================================
-# 프로그램 명칭: KRA전국 승부예상AI_V2.5 (고급 통계 & 거리적성 모델)
-# ==============================================================
-VERSION = "KRA전국 승부예상AI_V2.5"
+# =========================================================================
+# 프로그램 명칭: KRA전국 승부예상AI_V3.0 (프로페셔널: 주로/체중/주기/전개 통합)
+# =========================================================================
+VERSION = "KRA전국 승부예상AI_V3.0"
 API_KEY = os.environ.get("KRA_API_KEY", "")
 URL = "http://apis.data.go.kr/B551015/racedetailresult/getracedetailresult"
 
@@ -23,7 +23,7 @@ MEET_CONFIG = [
     ("3", "부산경남")
 ]
 
-# 1. 최근 1년 기수 복승률(1~2착 확률) 통계 DB (단위: %)
+# 1. 기수 최근 1년 복승률 통계 DB (%)
 JOCKEY_RATES = {
     "문세영": 33.2, "서승운": 31.5, "최시대": 26.8, "다나카": 25.4,
     "빅투아르": 25.1, "김용근": 24.5, "다비드": 24.2, "유현명": 23.8,
@@ -34,7 +34,7 @@ JOCKEY_RATES = {
     "최범현": 15.5, "마이아": 22.0, "조상범": 13.5, "김효정": 12.0
 }
 
-# 2. 최근 1년 조교사 복승률 통계 DB (단위: %)
+# 2. 조교사 최근 1년 복승률 통계 DB (%)
 TRAINER_RATES = {
     "서홍수": 24.5, "김영관": 28.0, "라이스": 25.2, "민장기": 22.1,
     "송문길": 21.5, "배휴준": 20.8, "정호익": 19.5, "최용건": 19.0,
@@ -43,81 +43,67 @@ TRAINER_RATES = {
     "서인석": 15.0, "백광열": 18.8, "심승태": 14.5, "조용배": 13.5
 }
 
-def calculate_ai_score_v25(gate, weight, jockey, trainer, distance_str):
-    """
-    [V2.5 엔진]
-    - 기수 & 조교사 1년 복승률 수치 기반 정밀 환산
-    - 경주 거리(단거리 vs 장거리)에 따른 게이트 / 부중 동적 가중치
-    - AI 분석 태그 자동 추출
-    """
-    score = 40.0
+def analyze_track_bonus(track_str, gate, is_front_runner):
+    """[무기 1] 주로 상태(함수율/비)에 따른 유불리 분석"""
+    bonus = 0.0
     tags = []
+    track_clean = str(track_str).strip()
+    
+    # 포화(15~19%) or 불량(20% 이상) -> 젖은 주로 (선행/안쪽 코스 절대 유리)
+    if any(k in track_clean for k in ["포화", "불량", "다습"]):
+        if 1 <= gate <= 3 or is_front_runner:
+            bonus += 6.0
+            tags.append("젖은 주로 선행 유리 🌧️")
+        elif gate >= 9:
+            bonus -= 3.0
+    # 건조(1~5%) -> 뻑뻑한 깊은 모래 (선행마 체력소모 심함, 추입마 유리)
+    elif "건조" in track_clean:
+        if gate <= 3:
+            bonus += 2.0
+        tags.append("건조 주로")
+    return bonus, tags
 
-    # 1. 기수 복승률 반영 (최대 35점)
-    jk_rate = JOCKEY_RATES.get(jockey, 10.0)
-    score += (jk_rate * 0.9)
-    if jk_rate >= 25.0:
-        tags.append("특급 기수 🏇")
-    elif jk_rate >= 20.0:
-        tags.append("상위 기수")
-
-    # 2. 조교사 복승률 반영 (최대 20점)
-    tr_rate = TRAINER_RATES.get(trainer, 12.0)
-    score += (tr_rate * 0.6)
-    if tr_rate >= 20.0:
-        tags.append("우수 마방 🏆")
-
-    # 3. 거리 파싱 (단거리: 1300m 이하 / 장거리: 1700m 이상)
-    dist = 1400
+def analyze_body_weight(weight_diff_str):
+    """[무기 2] 당일 마체중 급변(±10kg) 컨디션 감지"""
+    bonus = 0.0
+    tags = []
     try:
-        dist_nums = re.findall(r'\d+', str(distance_str))
-        if dist_nums:
-            dist = int(dist_nums[0])
-    except:
-        dist = 1400
-
-    # 4. 거리별 게이트 가중치
-    try:
-        g = int(gate)
-        if dist <= 1300:  # 단거리는 안쪽 코너 선점이 절대적
-            if 1 <= g <= 3:
-                score += 15.0
-                tags.append("단거리 안쪽 황금게이트 ⚡")
-            elif 4 <= g <= 7:
-                score += 8.0
-            else:
-                score -= 4.0  # 단거리 외곽 불리 감점
-        elif dist >= 1700:  # 장거리는 코너링 여유가 있어 게이트 영향 완만
-            if 1 <= g <= 4:
-                score += 9.0
-            elif 5 <= g <= 8:
-                score += 6.0
-            else:
-                score += 3.0
-        else:  # 중거리 (1400~1600m)
-            if 1 <= g <= 4:
-                score += 12.0
-            elif 5 <= g <= 8:
-                score += 7.0
-            else:
-                score += 2.0
-    except:
-        score += 5.0
-
-    # 5. 거리별 부담중량 가중치 (*52.5 등 기호 정제)
-    try:
-        clean_w = re.sub(r'[^0-9.]', '', str(weight))
-        w = float(clean_w)
-        # 장거리일수록 부담중량 1kg의 피로도가 기하급수적으로 증가
-        weight_factor = 3.5 if dist >= 1700 else 2.5
-        weight_bonus = (55.0 - w) * weight_factor
-        score += weight_bonus
-        if w <= 52.5:
-            tags.append(f"경량 부중 유리({w}kg) 🪶")
+        # 형식 예: "+12", "-14", "480(-8)" 등에서 괄호 안 숫자 추출
+        match = re.search(r'([+-]?\d+)', str(weight_diff_str))
+        if match:
+            diff = int(match.group(1))
+            if diff >= 12:
+                bonus -= 5.0
+                tags.append(f"체중 급증({diff}kg) 비만 주의 ⚠️")
+            elif diff <= -12:
+                bonus -= 7.0
+                tags.append(f"체중 급감({diff}kg) 체력 저하 ⚠️")
+            elif -3 <= diff <= 3:
+                bonus += 3.0
+                tags.append("체중 유지 최상 ✨")
     except:
         pass
+    return bonus, tags
 
-    return round(score, 1), tags
+def analyze_rest_period(recent_date_str, today_str):
+    """[무기 3] 실전 출전 주기 (공백기 페널티)"""
+    bonus = 0.0
+    tags = []
+    try:
+        if recent_date_str and len(recent_date_str) >= 8 and len(today_str) >= 8:
+            d_recent = datetime.strptime(recent_date_str[:8], "%Y%m%d")
+            d_today = datetime.strptime(today_str[:8], "%Y%m%d")
+            days = (d_today - d_recent).days
+
+            if days >= 90:
+                bonus -= 8.0
+                tags.append(f"장기 휴양마({days}일 공백) ⚠️")
+            elif 21 <= days <= 45:
+                bonus += 4.0
+                tags.append("이상적 출전 주기 👍")
+    except:
+        pass
+    return bonus, tags
 
 def fetch_meet_data(meet_code, meet_name, date_str):
     params = {
@@ -128,7 +114,7 @@ def fetch_meet_data(meet_code, meet_name, date_str):
         "rc_date": date_str
     }
     full_url = f"{URL}?{urllib.parse.urlencode(params)}"
-    print(f"[{meet_name}] 마사회 데이터 수신 요청: {date_str}")
+    print(f"[{meet_name}] V3.0 정밀 수집 요청: {date_str}")
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
@@ -160,9 +146,15 @@ def fetch_meet_data(meet_code, meet_name, date_str):
             jockey = gv(["jkName", "jk_name"]) or "기수"
             trainer = gv(["trName", "tr_name"]) or "조교사"
             weight = gv(["wgBudam", "wg_budam"]) or "55.0"
-            distance = gv(["rcDist", "rc_dist", "distance", "dist"]) or "1400"
+            distance = gv(["rcDist", "rc_dist", "distance"]) or "1400"
+            track = gv(["track", "track_state", "trackCond"]) or "양호"
+            body_diff = gv(["wgHrDiff", "diff_wg", "wg_diff"]) or "0"
+            recent_date = gv(["recentRcDate", "rcDate_recent", "recent_date"]) or ""
+            
+            # 주행 습성(선행마 여부 파악: 출발 후 선두권 기록)
+            s1f_rank = gv(["g1p", "s1f", "g1pRank", "ord1p"]) or "99"
+            is_front = True if s1f_rank in ["1", "2"] else False
 
-            # 착순 자동 감지
             ord_no = "-"
             for child in it:
                 tag_low = child.tag.lower()
@@ -180,11 +172,10 @@ def fetch_meet_data(meet_code, meet_name, date_str):
                     "race_no": rc_no,
                     "race_date": date_str,
                     "distance": distance,
+                    "track": track,
                     "version": VERSION,
                     "horses": []
                 }
-
-            score, tags = calculate_ai_score_v25(gate, weight, jockey, trainer, distance)
 
             races[key]["horses"].append({
                 "gate": str(int(gate)) if gate.isdigit() else gate,
@@ -193,15 +184,88 @@ def fetch_meet_data(meet_code, meet_name, date_str):
                 "trainer": trainer,
                 "weight": weight,
                 "distance": distance,
-                "actual_ord": ord_no,
-                "ai_score": score,
-                "ai_tags": tags
+                "track": track,
+                "body_diff": body_diff,
+                "recent_date": recent_date,
+                "is_front": is_front,
+                "actual_ord": ord_no
             })
 
+        # 경주별 AI V3.0 점수 종합 연산
         for r in races.values():
+            dist = 1400
+            try:
+                dist = int(re.findall(r'\d+', str(r["distance"]))[0])
+            except:
+                pass
+
+            # [무기 4] 단독 선행마 자동 판별
+            front_runner_count = sum(1 for h in r["horses"] if h["is_front"])
+
+            for h in r["horses"]:
+                score = 35.0
+                tags = []
+                g = int(h["gate"]) if str(h["gate"]).isdigit() else 5
+
+                # 1. 기수 & 조교사 복승률
+                jk_rate = JOCKEY_RATES.get(h["jockey"], 10.0)
+                score += (jk_rate * 0.9)
+                if jk_rate >= 25.0:
+                    tags.append("특급 기수 🏇")
+                elif jk_rate >= 20.0:
+                    tags.append("상위 기수")
+
+                tr_rate = TRAINER_RATES.get(h["trainer"], 12.0)
+                score += (tr_rate * 0.6)
+                if tr_rate >= 20.0:
+                    tags.append("우수 마방 🏆")
+
+                # 2. 거리별 게이트 가중치
+                if dist <= 1300:
+                    score += 15.0 if g <= 3 else 8.0 if g <= 7 else -4.0
+                    if g <= 3:
+                        tags.append("단거리 황금게이트 ⚡")
+                elif dist >= 1700:
+                    score += 9.0 if g <= 4 else 6.0 if g <= 8 else 3.0
+                else:
+                    score += 12.0 if g <= 4 else 7.0 if g <= 8 else 2.0
+
+                # 3. 부담중량 가중치
+                try:
+                    clean_w = float(re.sub(r'[^0-9.]', '', str(h["weight"])))
+                    w_factor = 3.5 if dist >= 1700 else 2.5
+                    score += (55.0 - clean_w) * w_factor
+                    if clean_w <= 52.5:
+                        tags.append(f"경량 부중({clean_w}kg) ⚡")
+                except:
+                    pass
+
+                # 4. [무기 1] 주로 상태(함수율)
+                t_score, t_tags = analyze_track_bonus(r["track"], g, h["is_front"])
+                score += t_score
+                tags.extend(t_tags)
+
+                # 5. [무기 2] 당일 마체중 급변 감지
+                b_score, b_tags = analyze_body_weight(h["body_diff"])
+                score += b_score
+                tags.extend(b_tags)
+
+                # 6. [무기 3] 출전 주기 분석
+                r_score, r_tags = analyze_rest_period(h["recent_date"], date_str)
+                score += r_score
+                tags.extend(r_tags)
+
+                # 7. [무기 4] 단독 선행 찬스
+                if h["is_front"] and front_runner_count == 1:
+                    score += 12.0
+                    tags.append("단독 선행 찬스 🚀")
+
+                h["ai_score"] = round(score, 1)
+                h["ai_tags"] = tags
+
             r["horses"].sort(key=lambda x: x["ai_score"], reverse=True)
 
-        print(f"[{meet_name}] {len(races)}개 경주 V2.5 고급 분석 완료")
+        print(f"[{meet_name}] {len(races)}개 경주 V3.0 프로페셔널 분석 완료")
         return list(races.values())
 
     except Exception as e:
@@ -216,7 +280,7 @@ def main():
     today_str = datetime.now(KST).strftime("%Y%m%d")
     all_races = []
 
-    print(f"=== [{VERSION}] {today_str} 전국 경마 통계/거리적성 정밀 분석 시작 ===")
+    print(f"=== [{VERSION}] {today_str} 전국 경마 풀옵션 AI 분석 가동 ===")
     for m_code, m_name in MEET_CONFIG:
         res = fetch_meet_data(m_code, m_name, today_str)
         all_races.extend(res)
