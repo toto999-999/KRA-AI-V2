@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>KRA전국 승부예상AI_V2.5</title>
+    <title>KRA전국 승부예상AI_V3.0</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; }
         body { background-color: #f4f6f9; color: #333; padding-bottom: 30px; }
@@ -66,7 +66,7 @@
 </head>
 <body>
     <header>
-        <h1>🐎 KRA전국 승부예상AI_V2.5</h1>
+        <h1>🐎 KRA전국 승부예상AI_V3.0</h1>
         <p id="dateInfo">데이터 로딩 중...</p>
     </header>
 
@@ -105,11 +105,12 @@
                     const opt = document.createElement('option');
                     opt.value = idx;
                     const dStr = r.distance ? ` (${r.distance}m)` : '';
-                    opt.textContent = `[${r.meet_name}] ${r.race_no}R${dStr}`;
+                    const tStr = r.track ? ` [${r.track}]` : '';
+                    opt.textContent = `[${r.meet_name}] ${r.race_no}R${dStr}${tStr}`;
                     select.appendChild(opt);
                 });
 
-                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V2.5 고급 통계 분석`;
+                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V3.0 프로페셔널 분석`;
                 renderRace(0);
             })
             .catch(err => {
@@ -126,7 +127,7 @@
             const distLabel = document.getElementById('distLabel');
             list.innerHTML = '';
 
-            distLabel.textContent = `경주 (${race.distance || '1400'}m)`;
+            distLabel.textContent = `경주 (${race.distance || '1400'}m | ${race.track || '주로 양호'})`;
 
             const h1 = race.horses[0];
             const h2 = race.horses[1];
