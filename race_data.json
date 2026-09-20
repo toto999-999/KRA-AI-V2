@@ -5,7 +5,8 @@
     "race_no": "1",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "1",
@@ -14,11 +15,16 @@
         "trainer": "서홍수",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 90.5,
+        "ai_score": 88.5,
         "ai_tags": [
           "특급 기수 🏇",
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -28,10 +34,15 @@
         "trainer": "최용건",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 88.0,
+        "ai_score": 86.0,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -41,10 +52,15 @@
         "trainer": "정호익",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 84.8,
+        "ai_score": 82.8,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -54,10 +70,15 @@
         "trainer": "송문길",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 76.9,
+        "ai_score": 74.9,
         "ai_tags": [
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -67,9 +88,15 @@
         "trainer": "차우호",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 74.8,
-        "ai_tags": []
+        "ai_score": 72.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "3",
@@ -78,9 +105,15 @@
         "trainer": "리카디",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "-",
-        "ai_score": 69.5,
-        "ai_tags": []
+        "ai_score": 67.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "11",
@@ -89,10 +122,15 @@
         "trainer": "문세영",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 69.4,
+        "ai_score": 67.4,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -102,9 +140,15 @@
         "trainer": "박재우",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 67.6,
-        "ai_tags": []
+        "ai_score": 65.6,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -113,9 +157,15 @@
         "trainer": "이준철",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 66.8,
-        "ai_tags": []
+        "ai_score": 64.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -124,9 +174,15 @@
         "trainer": "강성오",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 66.7,
-        "ai_tags": []
+        "ai_score": 64.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -135,9 +191,15 @@
         "trainer": "문병기",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 64.5,
-        "ai_tags": []
+        "ai_score": 62.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -147,7 +209,8 @@
     "race_no": "2",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "1",
@@ -156,12 +219,17 @@
         "trainer": "서홍수",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 101.3,
+        "ai_score": 99.3,
         "ai_tags": [
           "특급 기수 🏇",
           "우수 마방 🏆",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -171,11 +239,16 @@
         "trainer": "서홍수",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 87.8,
+        "ai_score": 85.8,
         "ai_tags": [
           "상위 기수",
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -185,10 +258,15 @@
         "trainer": "박지헌",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 79.4,
+        "ai_score": 77.4,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -198,10 +276,15 @@
         "trainer": "이동국",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 78.0,
+        "ai_score": 76.0,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -211,9 +294,15 @@
         "trainer": "정호익",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 76.6,
-        "ai_tags": []
+        "ai_score": 74.6,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -222,10 +311,15 @@
         "trainer": "리카디",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 73.0,
+        "ai_score": 71.0,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -235,9 +329,15 @@
         "trainer": "이신우",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 69.5,
-        "ai_tags": []
+        "ai_score": 67.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "8",
@@ -246,9 +346,15 @@
         "trainer": "심승태",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 66.0,
-        "ai_tags": []
+        "ai_score": 64.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -257,9 +363,15 @@
         "trainer": "안병기",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 64.5,
-        "ai_tags": []
+        "ai_score": 62.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -268,10 +380,15 @@
         "trainer": "토니",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 64.5,
+        "ai_score": 62.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -281,9 +398,15 @@
         "trainer": "이관호",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 62.0,
-        "ai_tags": []
+        "ai_score": 60.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -293,7 +416,8 @@
     "race_no": "3",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "3",
@@ -302,9 +426,15 @@
         "trainer": "조현수",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 73.8,
-        "ai_tags": []
+        "ai_score": 71.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "8",
@@ -313,10 +443,15 @@
         "trainer": "배휴준",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 71.0,
+        "ai_score": 69.0,
         "ai_tags": [
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -326,9 +461,15 @@
         "trainer": "임채덕",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 70.7,
-        "ai_tags": []
+        "ai_score": 68.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "4",
@@ -337,9 +478,15 @@
         "trainer": "임채덕",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 70.7,
-        "ai_tags": []
+        "ai_score": 68.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -348,9 +495,15 @@
         "trainer": "문병기",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 69.2,
-        "ai_tags": []
+        "ai_score": 67.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "1",
@@ -359,9 +512,15 @@
         "trainer": "박윤규",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 65.7,
-        "ai_tags": []
+        "ai_score": 63.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -370,9 +529,15 @@
         "trainer": "강환민",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 65.7,
-        "ai_tags": []
+        "ai_score": 63.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -381,9 +546,15 @@
         "trainer": "이관호",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 63.2,
-        "ai_tags": []
+        "ai_score": 61.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -393,7 +564,8 @@
     "race_no": "4",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "1",
@@ -402,10 +574,15 @@
         "trainer": "김동균",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 80.6,
+        "ai_score": 78.6,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -415,10 +592,15 @@
         "trainer": "성상현",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 79.3,
+        "ai_score": 77.3,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -428,9 +610,15 @@
         "trainer": "서인석",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 76.0,
-        "ai_tags": []
+        "ai_score": 74.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "2",
@@ -439,9 +627,15 @@
         "trainer": "박재우",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 75.6,
-        "ai_tags": []
+        "ai_score": 73.6,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -450,10 +644,15 @@
         "trainer": "배휴준",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 73.6,
+        "ai_score": 71.6,
         "ai_tags": [
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -463,9 +662,15 @@
         "trainer": "김동균",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 70.7,
-        "ai_tags": []
+        "ai_score": 68.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "3",
@@ -474,9 +679,15 @@
         "trainer": "심승태",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 67.2,
-        "ai_tags": []
+        "ai_score": 65.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -485,9 +696,15 @@
         "trainer": "성상현",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 63.8,
-        "ai_tags": []
+        "ai_score": 61.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -496,9 +713,15 @@
         "trainer": "심승태",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 62.2,
-        "ai_tags": []
+        "ai_score": 60.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -507,9 +730,15 @@
         "trainer": "안병기",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 60.7,
-        "ai_tags": []
+        "ai_score": 58.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -519,7 +748,8 @@
     "race_no": "5",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "2",
@@ -528,11 +758,16 @@
         "trainer": "문세영",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 88.0,
+        "ai_score": 86.0,
         "ai_tags": [
           "특급 기수 🏇",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -542,9 +777,15 @@
         "trainer": "서인석",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 77.7,
-        "ai_tags": []
+        "ai_score": 75.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -553,10 +794,15 @@
         "trainer": "이신우",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 77.5,
+        "ai_score": 75.5,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -566,10 +812,15 @@
         "trainer": "차우호",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -579,11 +830,16 @@
         "trainer": "배휴준",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 73.5,
+        "ai_score": 71.5,
         "ai_tags": [
           "우수 마방 🏆",
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -593,10 +849,15 @@
         "trainer": "심승태",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 71.0,
+        "ai_score": 69.0,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -606,10 +867,15 @@
         "trainer": "박지헌",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 69.5,
+        "ai_score": 67.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -619,9 +885,15 @@
         "trainer": "전승규",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 69.3,
-        "ai_tags": []
+        "ai_score": 67.3,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "1",
@@ -630,9 +902,15 @@
         "trainer": "서인석",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 66.2,
-        "ai_tags": []
+        "ai_score": 64.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -641,10 +919,15 @@
         "trainer": "강성오",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 64.5,
+        "ai_score": 62.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -654,9 +937,15 @@
         "trainer": "홍윤화",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 62.6,
-        "ai_tags": []
+        "ai_score": 60.6,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -666,7 +955,8 @@
     "race_no": "6",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "2",
@@ -675,10 +965,15 @@
         "trainer": "이강서",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 95.4,
+        "ai_score": 93.4,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -688,10 +983,15 @@
         "trainer": "성상현",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 82.7,
+        "ai_score": 80.7,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -701,10 +1001,15 @@
         "trainer": "박재우",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 80.9,
+        "ai_score": 78.9,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -714,11 +1019,16 @@
         "trainer": "송문길",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 80.0,
+        "ai_score": 78.0,
         "ai_tags": [
           "특급 기수 🏇",
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -728,10 +1038,15 @@
         "trainer": "박재우",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 79.4,
+        "ai_score": 77.4,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -741,9 +1056,15 @@
         "trainer": "이관호",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 72.0,
-        "ai_tags": []
+        "ai_score": 70.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -752,9 +1073,15 @@
         "trainer": "정호익",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 69.0,
-        "ai_tags": []
+        "ai_score": 67.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -763,9 +1090,15 @@
         "trainer": "서인석",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 68.8,
-        "ai_tags": []
+        "ai_score": 66.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -774,10 +1107,15 @@
         "trainer": "조현수",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 64.5,
+        "ai_score": 62.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -787,9 +1125,15 @@
         "trainer": "차우호",
         "weight": "57",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "-",
-        "ai_score": 58.2,
-        "ai_tags": []
+        "ai_score": 56.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -798,9 +1142,15 @@
         "trainer": "박윤규",
         "weight": "55.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 57.0,
-        "ai_tags": []
+        "ai_score": 55.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -810,7 +1160,8 @@
     "race_no": "7",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "7",
@@ -819,10 +1170,15 @@
         "trainer": "김동균",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 82.5,
+        "ai_score": 80.5,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -832,10 +1188,15 @@
         "trainer": "강성오",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 81.7,
+        "ai_score": 79.7,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -845,11 +1206,16 @@
         "trainer": "함완식",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 77.5,
+        "ai_score": 75.5,
         "ai_tags": [
           "상위 기수",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -859,10 +1225,15 @@
         "trainer": "조현수",
         "weight": "51.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 77.0,
+        "ai_score": 75.0,
         "ai_tags": [
-          "경량 부중 유리(51.5kg) 🪶"
+          "경량 부중(51.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -872,10 +1243,15 @@
         "trainer": "박재우",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 72.6,
+        "ai_score": 70.6,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -885,10 +1261,15 @@
         "trainer": "박지헌",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 72.1,
+        "ai_score": 70.1,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -898,9 +1279,15 @@
         "trainer": "서인석",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 71.2,
-        "ai_tags": []
+        "ai_score": 69.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -909,10 +1296,15 @@
         "trainer": "임채덕",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 69.5,
+        "ai_score": 67.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -922,9 +1314,15 @@
         "trainer": "정호익",
         "weight": "57",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 67.7,
-        "ai_tags": []
+        "ai_score": 65.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -933,9 +1331,15 @@
         "trainer": "전승규",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 66.8,
-        "ai_tags": []
+        "ai_score": 64.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "11",
@@ -944,10 +1348,15 @@
         "trainer": "이동국",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 64.5,
+        "ai_score": 62.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       }
     ]
@@ -958,7 +1367,8 @@
     "race_no": "8",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "8",
@@ -967,10 +1377,15 @@
         "trainer": "손병철",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 82.5,
+        "ai_score": 80.5,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -980,9 +1395,15 @@
         "trainer": "이강서",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 76.0,
-        "ai_tags": []
+        "ai_score": 74.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "1",
@@ -991,9 +1412,15 @@
         "trainer": "하무선",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 72.0,
-        "ai_tags": []
+        "ai_score": 70.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "14",
@@ -1002,10 +1429,15 @@
         "trainer": "임성실",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "13",
-        "ai_score": 71.8,
+        "ai_score": 69.8,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1015,10 +1447,15 @@
         "trainer": "이준철",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 71.2,
+        "ai_score": 69.2,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1028,9 +1465,15 @@
         "trainer": "강성오",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 70.0,
-        "ai_tags": []
+        "ai_score": 68.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -1039,10 +1482,15 @@
         "trainer": "임금만",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 69.5,
+        "ai_score": 67.5,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1052,9 +1500,15 @@
         "trainer": "서인석",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "12",
-        "ai_score": 69.2,
-        "ai_tags": []
+        "ai_score": 67.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "13",
@@ -1063,9 +1517,15 @@
         "trainer": "이강서",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "14",
-        "ai_score": 68.3,
-        "ai_tags": []
+        "ai_score": 66.3,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "2",
@@ -1074,9 +1534,15 @@
         "trainer": "최영주",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 68.2,
-        "ai_tags": []
+        "ai_score": 66.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "3",
@@ -1085,9 +1551,15 @@
         "trainer": "문병기",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "16",
-        "ai_score": 68.2,
-        "ai_tags": []
+        "ai_score": 66.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "15",
@@ -1096,9 +1568,15 @@
         "trainer": "정호익",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 66.5,
-        "ai_tags": []
+        "ai_score": 64.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "12",
@@ -1107,9 +1585,15 @@
         "trainer": "구영준",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 65.8,
-        "ai_tags": []
+        "ai_score": 63.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -1118,9 +1602,15 @@
         "trainer": "이상영",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 63.2,
-        "ai_tags": []
+        "ai_score": 61.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -1129,9 +1619,15 @@
         "trainer": "하무선",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "15",
-        "ai_score": 63.2,
-        "ai_tags": []
+        "ai_score": 61.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "16",
@@ -1140,9 +1636,15 @@
         "trainer": "이상영",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 58.2,
-        "ai_tags": []
+        "ai_score": 56.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -1152,7 +1654,8 @@
     "race_no": "9",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "2",
@@ -1161,10 +1664,15 @@
         "trainer": "임채덕",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 82.1,
+        "ai_score": 80.1,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1174,10 +1682,15 @@
         "trainer": "강성오",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 81.7,
+        "ai_score": 79.7,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1187,10 +1700,15 @@
         "trainer": "이신우",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 77.7,
+        "ai_score": 75.7,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1200,11 +1718,16 @@
         "trainer": "송문길",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 75.5,
+        "ai_score": 73.5,
         "ai_tags": [
           "우수 마방 🏆",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1214,10 +1737,15 @@
         "trainer": "한만달",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 73.0,
+        "ai_score": 71.0,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1227,9 +1755,15 @@
         "trainer": "토니",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 72.0,
-        "ai_tags": []
+        "ai_score": 70.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -1238,10 +1772,15 @@
         "trainer": "안병기",
         "weight": "55.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "-",
-        "ai_score": 71.9,
+        "ai_score": 69.9,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1251,9 +1790,15 @@
         "trainer": "박지헌",
         "weight": "55.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 66.9,
-        "ai_tags": []
+        "ai_score": 64.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "4",
@@ -1262,9 +1807,15 @@
         "trainer": "최용건",
         "weight": "57.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 66.2,
-        "ai_tags": []
+        "ai_score": 64.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -1273,9 +1824,15 @@
         "trainer": "백종수",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 64.5,
-        "ai_tags": []
+        "ai_score": 62.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -1284,10 +1841,15 @@
         "trainer": "리카디",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 64.5,
+        "ai_score": 62.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       }
     ]
@@ -1298,7 +1860,8 @@
     "race_no": "10",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "3",
@@ -1307,10 +1870,15 @@
         "trainer": "최용건",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 88.0,
+        "ai_score": 86.0,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1320,10 +1888,15 @@
         "trainer": "최용건",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 83.5,
+        "ai_score": 81.5,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1333,10 +1906,15 @@
         "trainer": "심승태",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 79.5,
+        "ai_score": 77.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1346,10 +1924,15 @@
         "trainer": "임채덕",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1359,10 +1942,15 @@
         "trainer": "이신우",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1372,9 +1960,15 @@
         "trainer": "성상현",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 68.2,
-        "ai_tags": []
+        "ai_score": 66.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -1383,9 +1977,15 @@
         "trainer": "이준철",
         "weight": "58",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 62.9,
-        "ai_tags": []
+        "ai_score": 60.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -1394,9 +1994,15 @@
         "trainer": "임채덕",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 60.7,
-        "ai_tags": []
+        "ai_score": 58.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -1405,9 +2011,15 @@
         "trainer": "강환민",
         "weight": "58",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 55.7,
-        "ai_tags": []
+        "ai_score": 53.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -1417,7 +2029,8 @@
     "race_no": "11",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "1",
@@ -1426,10 +2039,15 @@
         "trainer": "전승규",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 84.5,
+        "ai_score": 82.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1439,9 +2057,15 @@
         "trainer": "성상현",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 77.9,
-        "ai_tags": []
+        "ai_score": 75.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -1450,10 +2074,15 @@
         "trainer": "정호익",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 77.7,
+        "ai_score": 75.7,
         "ai_tags": [
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1463,11 +2092,16 @@
         "trainer": "서홍수",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 77.0,
+        "ai_score": 75.0,
         "ai_tags": [
           "우수 마방 🏆",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1477,10 +2111,15 @@
         "trainer": "박병일",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1490,10 +2129,15 @@
         "trainer": "안병기",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1503,10 +2147,15 @@
         "trainer": "박재우",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 74.4,
+        "ai_score": 72.4,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1516,9 +2165,15 @@
         "trainer": "정호익",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 71.0,
-        "ai_tags": []
+        "ai_score": 69.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -1527,10 +2182,15 @@
         "trainer": "박병일",
         "weight": "57.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 70.0,
+        "ai_score": 68.0,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1540,10 +2200,15 @@
         "trainer": "강환민",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 68.2,
+        "ai_score": 66.2,
         "ai_tags": [
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1553,10 +2218,15 @@
         "trainer": "심승태",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "-",
-        "ai_score": 66.0,
+        "ai_score": 64.0,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       }
     ]
@@ -1567,7 +2237,8 @@
     "race_no": "1",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "11",
@@ -1576,11 +2247,16 @@
         "trainer": "민장기",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 84.4,
+        "ai_score": 82.4,
         "ai_tags": [
           "특급 기수 🏇",
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1590,11 +2266,16 @@
         "trainer": "라이스",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 82.7,
+        "ai_score": 80.7,
         "ai_tags": [
           "상위 기수",
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1604,10 +2285,15 @@
         "trainer": "김도현",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 82.2,
+        "ai_score": 80.2,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1617,10 +2303,15 @@
         "trainer": "구영준",
         "weight": "57",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 81.0,
+        "ai_score": 79.0,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1630,10 +2321,15 @@
         "trainer": "박재호",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1643,9 +2339,15 @@
         "trainer": "안우성",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 72.7,
-        "ai_tags": []
+        "ai_score": 70.7,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -1654,9 +2356,15 @@
         "trainer": "강은석",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 72.5,
-        "ai_tags": []
+        "ai_score": 70.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -1665,9 +2373,15 @@
         "trainer": "이정표",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 71.8,
-        "ai_tags": []
+        "ai_score": 69.8,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "3",
@@ -1676,9 +2390,15 @@
         "trainer": "임성실",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 69.0,
-        "ai_tags": []
+        "ai_score": 67.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -1687,10 +2407,15 @@
         "trainer": "강은석",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 66.5,
+        "ai_score": 64.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1700,9 +2425,15 @@
         "trainer": "조용배",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 65.9,
-        "ai_tags": []
+        "ai_score": 63.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -1712,7 +2443,8 @@
     "race_no": "2",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "1",
@@ -1721,12 +2453,17 @@
         "trainer": "라이스",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 98.9,
+        "ai_score": 96.9,
         "ai_tags": [
           "상위 기수",
           "우수 마방 🏆",
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1736,11 +2473,16 @@
         "trainer": "양영남",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 84.6,
+        "ai_score": 82.6,
         "ai_tags": [
           "특급 기수 🏇",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1750,10 +2492,15 @@
         "trainer": "김혜선",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 81.5,
+        "ai_score": 79.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1763,9 +2510,15 @@
         "trainer": "백광열",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 78.4,
-        "ai_tags": []
+        "ai_score": 76.4,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -1774,10 +2527,15 @@
         "trainer": "유현명",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 73.8,
+        "ai_score": 71.8,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1787,10 +2545,15 @@
         "trainer": "윤영훈",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 73.3,
+        "ai_score": 71.3,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1800,9 +2563,15 @@
         "trainer": "안우성",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 73.0,
-        "ai_tags": []
+        "ai_score": 71.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -1811,10 +2580,15 @@
         "trainer": "유현명",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 69.5,
+        "ai_score": 67.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1824,10 +2598,15 @@
         "trainer": "라이스",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 68.2,
+        "ai_score": 66.2,
         "ai_tags": [
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1837,9 +2616,15 @@
         "trainer": "김혜선",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 67.9,
-        "ai_tags": []
+        "ai_score": 65.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -1849,7 +2634,8 @@
     "race_no": "3",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "2",
@@ -1858,11 +2644,16 @@
         "trainer": "구영준",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 91.1,
+        "ai_score": 89.1,
         "ai_tags": [
           "상위 기수",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1872,11 +2663,16 @@
         "trainer": "김도현",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 87.0,
+        "ai_score": 85.0,
         "ai_tags": [
           "특급 기수 🏇",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1886,11 +2682,16 @@
         "trainer": "구민성",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 84.6,
+        "ai_score": 82.6,
         "ai_tags": [
           "특급 기수 🏇",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1900,11 +2701,16 @@
         "trainer": "민장기",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 80.5,
+        "ai_score": 78.5,
         "ai_tags": [
           "우수 마방 🏆",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1914,10 +2720,15 @@
         "trainer": "권승주",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1927,10 +2738,15 @@
         "trainer": "임성실",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 73.6,
+        "ai_score": 71.6,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1940,9 +2756,15 @@
         "trainer": "손병직",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 72.2,
-        "ai_tags": []
+        "ai_score": 70.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "6",
@@ -1951,10 +2773,15 @@
         "trainer": "문현철",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 69.5,
+        "ai_score": 67.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1964,9 +2791,15 @@
         "trainer": "김혜선",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 69.3,
-        "ai_tags": []
+        "ai_score": 67.3,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -1975,10 +2808,15 @@
         "trainer": "이정표",
         "weight": "52",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 65.7,
+        "ai_score": 63.7,
         "ai_tags": [
-          "경량 부중 유리(52.0kg) 🪶"
+          "경량 부중(52.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -1988,9 +2826,15 @@
         "trainer": "조용배",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 64.1,
-        "ai_tags": []
+        "ai_score": 62.1,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -2000,7 +2844,8 @@
     "race_no": "4",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "2",
@@ -2009,10 +2854,15 @@
         "trainer": "김도현",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 90.8,
+        "ai_score": 88.8,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2022,10 +2872,15 @@
         "trainer": "구영준",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 83.0,
+        "ai_score": 81.0,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2035,11 +2890,16 @@
         "trainer": "라이스",
         "weight": "57.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 82.7,
+        "ai_score": 80.7,
         "ai_tags": [
           "상위 기수",
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2049,10 +2909,15 @@
         "trainer": "라이스",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 82.0,
+        "ai_score": 80.0,
         "ai_tags": [
-          "우수 마방 🏆"
+          "우수 마방 🏆",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2062,10 +2927,15 @@
         "trainer": "김도현",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 80.5,
+        "ai_score": 78.5,
         "ai_tags": [
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2075,10 +2945,15 @@
         "trainer": "양영남",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 76.5,
+        "ai_score": 74.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2088,10 +2963,15 @@
         "trainer": "윤영훈",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 69.5,
+        "ai_score": 67.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2101,10 +2981,15 @@
         "trainer": "조용배",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 69.1,
+        "ai_score": 67.1,
         "ai_tags": [
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2114,10 +2999,15 @@
         "trainer": "강형곤",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 68.3,
+        "ai_score": 66.3,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2127,9 +3017,15 @@
         "trainer": "조용배",
         "weight": "55.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 66.9,
-        "ai_tags": []
+        "ai_score": 64.9,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "11",
@@ -2138,9 +3034,15 @@
         "trainer": "손병철",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 62.5,
-        "ai_tags": []
+        "ai_score": 60.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -2150,7 +3052,8 @@
     "race_no": "5",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "4",
@@ -2159,11 +3062,16 @@
         "trainer": "민장기",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 86.4,
+        "ai_score": 84.4,
         "ai_tags": [
           "우수 마방 🏆",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2173,9 +3081,15 @@
         "trainer": "임성실",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 78.5,
-        "ai_tags": []
+        "ai_score": 76.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "2",
@@ -2184,9 +3098,15 @@
         "trainer": "유현명",
         "weight": "53.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 76.0,
-        "ai_tags": []
+        "ai_score": 74.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "11",
@@ -2195,10 +3115,15 @@
         "trainer": "양영남",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 75.8,
+        "ai_score": 73.8,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2208,10 +3133,15 @@
         "trainer": "조용배",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 75.3,
+        "ai_score": 73.3,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2221,10 +3151,15 @@
         "trainer": "최기홍",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 74.1,
+        "ai_score": 72.1,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2234,10 +3169,15 @@
         "trainer": "토마스",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 73.2,
+        "ai_score": 71.2,
         "ai_tags": [
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2247,10 +3187,15 @@
         "trainer": "방동석",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 68.5,
+        "ai_score": 66.5,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2260,10 +3205,15 @@
         "trainer": "김도현",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 68.2,
+        "ai_score": 66.2,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2273,9 +3223,15 @@
         "trainer": "유현명",
         "weight": "55",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 67.5,
-        "ai_tags": []
+        "ai_score": 65.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "5",
@@ -2284,9 +3240,15 @@
         "trainer": "방동석",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 59.5,
-        "ai_tags": []
+        "ai_score": 57.5,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   },
@@ -2296,7 +3258,8 @@
     "race_no": "6",
     "race_date": "20260920",
     "distance": "1400",
-    "version": "KRA전국 승부예상AI_V2.5",
+    "track": "양호",
+    "version": "KRA전국 승부예상AI_V3.0",
     "horses": [
       {
         "gate": "2",
@@ -2305,11 +3268,16 @@
         "trainer": "라이스",
         "weight": "*52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "3",
-        "ai_score": 88.2,
+        "ai_score": 86.2,
         "ai_tags": [
           "우수 마방 🏆",
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2319,10 +3287,15 @@
         "trainer": "강은석",
         "weight": "54.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "2",
-        "ai_score": 84.3,
+        "ai_score": 82.3,
         "ai_tags": [
-          "상위 기수"
+          "상위 기수",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2332,10 +3305,15 @@
         "trainer": "임성실",
         "weight": "56",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "9",
-        "ai_score": 79.1,
+        "ai_score": 77.1,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2345,10 +3323,15 @@
         "trainer": "이정표",
         "weight": "51",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "6",
-        "ai_score": 76.8,
+        "ai_score": 74.8,
         "ai_tags": [
-          "경량 부중 유리(51.0kg) 🪶"
+          "경량 부중(51.0kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2358,10 +3341,15 @@
         "trainer": "방동석",
         "weight": "52.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "7",
-        "ai_score": 74.5,
+        "ai_score": 72.5,
         "ai_tags": [
-          "경량 부중 유리(52.5kg) 🪶"
+          "경량 부중(52.5kg) ⚡",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2371,9 +3359,15 @@
         "trainer": "백광열",
         "weight": "55.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "5",
-        "ai_score": 71.0,
-        "ai_tags": []
+        "ai_score": 69.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "8",
@@ -2382,9 +3376,15 @@
         "trainer": "김도현",
         "weight": "54",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "1",
-        "ai_score": 69.4,
-        "ai_tags": []
+        "ai_score": 67.4,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "10",
@@ -2393,10 +3393,15 @@
         "trainer": "문현철",
         "weight": "56.5",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "8",
-        "ai_score": 68.3,
+        "ai_score": 66.3,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "체중 유지 최상 ✨"
         ]
       },
       {
@@ -2406,9 +3411,15 @@
         "trainer": "구영준",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "10",
-        "ai_score": 67.1,
-        "ai_tags": []
+        "ai_score": 65.1,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "9",
@@ -2417,9 +3428,15 @@
         "trainer": "최기홍",
         "weight": "53",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "11",
-        "ai_score": 63.2,
-        "ai_tags": []
+        "ai_score": 61.2,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       },
       {
         "gate": "7",
@@ -2428,9 +3445,15 @@
         "trainer": "이상영",
         "weight": "58",
         "distance": "1400",
+        "track": "양호",
+        "body_diff": "0",
+        "recent_date": "",
+        "is_front": false,
         "actual_ord": "4",
-        "ai_score": 60.0,
-        "ai_tags": []
+        "ai_score": 58.0,
+        "ai_tags": [
+          "체중 유지 최상 ✨"
+        ]
       }
     ]
   }
