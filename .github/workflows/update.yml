@@ -1,0 +1,38 @@
+name: KRA전국 승부예상AI_V2.0 Auto Update
+
+on:
+  workflow_dispatch: # Actions 탭에서 수동 실행 버튼 활성화
+  schedule:
+    # 1. 매주 금, 토, 일 08:30 KST (사전 승부예측 생성)
+    - cron: '30 23 * * 4,5,6'
+    # 2. 매주 금, 토, 일 18:30 KST (전 경주 착순 결과 및 적중률 자동 복기)
+    - cron: '30 9 * * 5,6,0'
+
+jobs:
+  run-crawler:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v4
+
+      - name: 파이썬 환경 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: KRA전국 승부예상AI_V2.0 데이터 수집 및 분석
+        env:
+          KRA_API_KEY: ${{ secrets.KRA_API_KEY }}
+          TZ: "Asia/Seoul"
+        run: |
+          python update_data.py
+
+      - name: 갱신된 분석 데이터 커밋 및 자동 배포
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add race_data.json
+          git commit -m "Auto: [KRA전국 승부예상AI_V2.0] 최신 경주 분석 갱신 [skip ci]" || echo "변경사항 없음"
+          git push
