@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>KRA전국 승부예상AI_V2.0</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; }
+        body { background-color: #f4f6f9; color: #333; padding-bottom: 30px; }
+        header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 18px 16px; text-align: center; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
+        header h1 { font-size: 1.25rem; font-weight: 800; letter-spacing: -0.5px; }
+        header p { font-size: 0.8rem; opacity: 0.9; margin-top: 4px; }
+        .container { padding: 14px; max-width: 500px; margin: 0 auto; }
+        
+        .pick-banner {
+            background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+            color: white;
+            border-radius: 12px;
+            padding: 14px 16px;
+            margin-bottom: 14px;
+            box-shadow: 0 3px 8px rgba(255, 107, 107, 0.3);
+            transition: all 0.3s ease;
+        }
+        .pick-banner.hit-exact {
+            background: linear-gradient(135deg, #0ba360, #3cba92);
+            box-shadow: 0 4px 12px rgba(11, 163, 96, 0.4);
+        }
+        .pick-banner.hit-win {
+            background: linear-gradient(135deg, #2193b0, #6dd5ed);
+            box-shadow: 0 4px 12px rgba(33, 147, 176, 0.4);
+        }
+        .pick-banner.finished-miss {
+            background: linear-gradient(135deg, #4b6cb7, #182848);
+            box-shadow: 0 3px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .pick-banner h2 { font-size: 0.85rem; margin-bottom: 4px; display: flex; align-items: center; justify-content: space-between; }
+        .pick-list { font-size: 1.15rem; font-weight: 800; margin-top: 4px; }
+        .hit-status-tag { font-size: 0.75rem; background: rgba(255,255,255,0.25); padding: 2px 8px; border-radius: 20px; font-weight: bold; }
+
+        .race-select-card { background: white; border-radius: 12px; padding: 12px 14px; margin-bottom: 14px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .race-select-card select { padding: 8px 10px; border-radius: 8px; border: 1px solid #ccc; font-weight: bold; font-size: 0.95rem; color: #1e3c72; outline: none; }
+        
+        .horse-card { background: white; border-radius: 12px; padding: 12px 14px; margin-bottom: 10px; display: flex; align-items: center; border-left: 5px solid #ddd; box-shadow: 0 2px 5px rgba(0,0,0,0.03); position: relative; }
+        .horse-card.rank-1 { border-left-color: #e63946; background-color: #fffaf0; }
+        .horse-card.rank-2 { border-left-color: #f4a261; }
+        .horse-card.rank-3 { border-left-color: #2a9d8f; }
+        
+        .gate-no { width: 36px; height: 36px; background-color: #f1f3f5; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-size: 1.05rem; font-weight: 800; margin-right: 12px; flex-shrink: 0; }
+        .horse-card.rank-1 .gate-no { background-color: #e63946; color: white; }
+        
+        .horse-info { flex-grow: 1; }
+        .horse-name { font-size: 0.95rem; font-weight: bold; margin-bottom: 3px; display: flex; align-items: center; gap: 6px; }
+        .jockey-name { font-size: 0.78rem; color: #666; }
+        .score-info { text-align: right; flex-shrink: 0; }
+        .win-rate { font-size: 1.15rem; font-weight: 800; color: #1e3c72; }
+        .horse-card.rank-1 .win-rate { color: #e63946; }
+
+        .badge-1st { background-color: #ffd700; color: #7a5800; font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; }
+        .badge-2nd { background-color: #c0c0c0; color: #333; font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; }
+        .badge-3rd { background-color: #cd7f32; color: white; font-size: 0.72rem; padding: 2px 6px; border-radius: 4px; font-weight: 800; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🐎 KRA전국 승부예상AI_V2.0</h1>
+        <p id="dateInfo">데이터 로딩 중...</p>
+    </header>
+
+    <div class="container">
+        <div id="pickBanner" class="pick-banner">
+            <h2>
+                <span id="bannerTitle">🏆 AI 추천 복승식 (1-2위 조합)</span>
+                <span id="hitStatusTag" class="hit-status-tag">예상 중</span>
+            </h2>
+            <div id="aiRecommendation" class="pick-list">-</div>
+        </div>
+
+        <div class="race-select-card">
+            <span style="font-weight:bold; font-size:0.9rem;">경주장 / 경주 선택</span>
+            <select id="raceSelect" onchange="changeRace()"></select>
+        </div>
+
+        <div id="horseList"></div>
+    </div>
+
+    <script>
+        let allRaceData = [];
+
+        fetch('./race_data.json?t=' + Date.now())
+            .then(res => res.json())
+            .then(data => {
+                if (!data || data.length === 0) {
+                    document.getElementById('dateInfo').textContent = "현재 등록된 경주 데이터가 없습니다.";
+                    return;
+                }
+                allRaceData = data;
+                const select = document.getElementById('raceSelect');
+                select.innerHTML = '';
+                
+                data.forEach((r, idx) => {
+                    const opt = document.createElement('option');
+                    opt.value = idx;
+                    opt.textContent = `[${r.meet_name}] ${r.race_no}경주`;
+                    select.appendChild(opt);
+                });
+
+                document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V2.0 스마트 분석`;
+                renderRace(0);
+            })
+            .catch(err => {
+                document.getElementById('dateInfo').textContent = "경주 데이터를 불러올 수 없습니다.";
+            });
+
+        function renderRace(idx) {
+            const race = allRaceData[idx];
+            const list = document.getElementById('horseList');
+            const banner = document.getElementById('pickBanner');
+            const bannerTitle = document.getElementById('bannerTitle');
+            const hitTag = document.getElementById('hitStatusTag');
+            const recBox = document.getElementById('aiRecommendation');
+            list.innerHTML = '';
+
+            const h1 = race.horses[0];
+            const h2 = race.horses[1];
+            recBox.textContent = `[${h1.gate}번] ${h1.name} ✖ [${h2.gate}번] ${h2.name}`;
+
+            const actual1st = race.horses.find(h => parseInt(h.actual_ord, 10) === 1);
+            const actual2nd = race.horses.find(h => parseInt(h.actual_ord, 10) === 2);
+
+            banner.className = 'pick-banner';
+
+            if (actual1st && actual2nd) {
+                const actualTop2 = [actual1st.gate, actual2nd.gate];
+                const aiTop2 = [h1.gate, h2.gate];
+
+                const isExactHit = aiTop2.includes(actual1st.gate) && aiTop2.includes(actual2nd.gate);
+                const isWinHit = (h1.gate === actual1st.gate);
+
+                if (isExactHit) {
+                    banner.classList.add('hit-exact');
+                    bannerTitle.textContent = "🎯 복승식 적중 대성공!";
+                    hitTag.textContent = "대박 적중 🏆";
+                    recBox.textContent = `[${actual1st.gate}번] ${actual1st.name} ✖ [${actual2nd.gate}번] ${actual2nd.name} (적중)`;
+                } else if (isWinHit) {
+                    banner.classList.add('hit-win');
+                    bannerTitle.textContent = "🎯 단승식 1착 적중!";
+                    hitTag.textContent = "1착 적중 🥇";
+                    recBox.textContent = `예상 1위 [${h1.gate}번] ${h1.name} 1착 골인!`;
+                } else {
+                    banner.classList.add('finished-miss');
+                    bannerTitle.textContent = "🏁 경주 종료 (결과 복기)";
+                    hitTag.textContent = "경기 완료";
+                    recBox.textContent = `실제 결과: 1착 [${actual1st.gate}번] - 2착 [${actual2nd.gate}번]`;
+                }
+            } else {
+                bannerTitle.textContent = "🏆 AI 추천 복승식 (1-2위 조합)";
+                hitTag.textContent = "경기 전 예상";
+            }
+
+            race.horses.forEach((h, i) => {
+                const rankClass = i === 0 ? 'rank-1' : i === 1 ? 'rank-2' : i === 2 ? 'rank-3' : '';
+                const ordNum = parseInt(h.actual_ord, 10);
+                
+                let badgeHtml = '';
+                if (ordNum === 1) badgeHtml = '<span class="badge-1st">1착 🥇</span>';
+                else if (ordNum === 2) badgeHtml = '<span class="badge-2nd">2착 🥈</span>';
+                else if (ordNum === 3) badgeHtml = '<span class="badge-3rd">3착 🥉</span>';
+
+                const resultStatus = isNaN(ordNum) ? '경기 전' : `실제 ${ordNum}착`;
+
+                list.innerHTML += `
+                    <div class="horse-card ${rankClass}">
+                        <div class="gate-no">${h.gate}</div>
+                        <div class="horse-info">
+                            <div class="horse-name">
+                                ${h.name} ${badgeHtml}
+                            </div>
+                            <div class="jockey-name">${h.jockey} 기수 | ${h.trainer} 조교 (${h.weight}kg)</div>
+                        </div>
+                        <div class="score-info">
+                            <div class="win-rate">${h.ai_score}점</div>
+                            <div style="font-size:0.7rem; color:#888;">예상 ${i+1}위 (${resultStatus})</div>
+                        </div>
+                    </div>
+                `;
+            });
+        }
+
+        function changeRace() {
+            const val = document.getElementById('raceSelect').value;
+            renderRace(val);
+        }
+    </script>
+</body>
+</html>
