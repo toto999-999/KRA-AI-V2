@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>KRA전국 승부예상AI_V4.0</title>
+    <title>KRA전국 승부예상AI_V5.0</title>
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; }
         body { background-color: #f4f6f9; color: #333; padding-bottom: 40px; }
@@ -87,8 +87,11 @@
         .horse-name { font-size: 0.95rem; font-weight: bold; margin-bottom: 3px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
         .jockey-name { font-size: 0.78rem; color: #666; margin-bottom: 4px; }
         .tag-list { display: flex; gap: 4px; flex-wrap: wrap; }
+        
+        /* 뱃지 디자인 스타일 (골드 / 퍼플 / 기본) */
         .ai-tag { font-size: 0.68rem; background: #eef2f7; color: #2a5298; padding: 1px 6px; border-radius: 4px; font-weight: 600; }
         .ai-tag.gold-tag { background: #fff3cd; color: #856404; border: 1px solid #ffeeba; font-weight: 800; }
+        .ai-tag.purple-tag { background: #f3e8ff; color: #6b21a8; border: 1px solid #e9d5ff; font-weight: 800; }
         
         .score-info { text-align: right; flex-shrink: 0; margin-left: 8px; }
         .win-rate { font-size: 1.15rem; font-weight: 800; color: #1e3c72; }
@@ -106,6 +109,7 @@
         .guide-box { background: #f8fafd; border-left: 4px solid #2a5298; padding: 10px 12px; border-radius: 4px; margin: 8px 0; font-size: 0.82rem; line-height: 1.5; color: #333; }
         .guide-box.warn { border-left-color: #e63946; background: #fff8f8; }
         .guide-box.gold { border-left-color: #f4a261; background: #fffcf6; }
+        .guide-box.purple { border-left-color: #8b5cf6; background: #faf5ff; }
         
         .badge-table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 0.82rem; }
         .badge-table th { background: #f1f4f9; padding: 8px; text-align: left; color: #1e3c72; border-bottom: 1px solid #ddd; }
@@ -126,7 +130,7 @@
     <div id="lockScreen">
         <div class="lock-box">
             <div class="lock-icon">🔐</div>
-            <div class="lock-title">KRA전국 승부예상AI_V4.0</div>
+            <div class="lock-title">KRA전국 승부예상AI_V5.0</div>
             <div class="lock-desc">비밀번호(PIN 4자리)를 입력하세요.</div>
             <input type="password" id="pinInput" class="pin-input" maxlength="4" pattern="[0-9]*" inputmode="numeric" placeholder="••••">
             <button class="pin-btn" onclick="checkPin()">잠금 해제</button>
@@ -137,7 +141,7 @@
     <div id="mainApp">
         <header>
             <div class="header-top">
-                <h1>🐎 KRA전국 승부예상AI_V4.0</h1>
+                <h1>🐎 KRA전국 승부예상AI_V5.0</h1>
                 <div class="header-btns">
                     <button class="btn-instant-update" onclick="triggerImmediateUpdate()">⚡ 최신결과 갱신</button>
                     <button class="btn-lock" onclick="lockApp()" title="화면 잠그기">🔒</button>
@@ -194,8 +198,8 @@
             <!-- [탭 2] 뱃지 도감 -->
             <div id="tab-badges" class="tab-content">
                 <div class="guide-card">
-                    <div class="guide-title">🏷️ AI 핵심 뱃지 총람 (듀얼 스피드 모델)</div>
-                    <div class="guide-text">AI가 경주마의 주파기록(경기전 과거기록 / 경기후 완주기록), 기수, 조교사, 배당률을 정밀 분석하여 부착하는 뱃지입니다.</div>
+                    <div class="guide-title">🏷️ AI 핵심 뱃지 총람 (V5.0 프로 엔진)</div>
+                    <div class="guide-text">AI가 주파기록(듀얼모드), 기수·조교사, 마구(장구), 새벽조교, 콤비전적을 정밀 분석하여 부착하는 스마트 뱃지입니다.</div>
                     
                     <table class="badge-table">
                         <thead>
@@ -205,6 +209,24 @@
                             </tr>
                         </thead>
                         <tbody>
+                            <!-- 신규 V5.0 특수 뱃지군 -->
+                            <tr>
+                                <td><span class="ai-tag purple-tag">눈가면 첫 착용 🤿</span></td>
+                                <td><strong>[마구 변경]</strong> 눈가면을 새로 착용해 시야를 가리고 전방 집중력을 극대화한 깜짝 복병마 (+6점)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="ai-tag purple-tag">새벽 습보 강훈련 🏋️</span></td>
+                                <td><strong>[새벽 조교]</strong> 최근 1주일간 최고 강도 전력질주(습보)를 완벽 소화해 컨디션이 용광로인 말 (+7점)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="ai-tag purple-tag">기수 직접 전담조교 🚴</span></td>
+                                <td><strong>[마방 승부]</strong> 관리사가 아닌 이번 출전 기수가 새벽에 직접 말을 타고 칼을 갈아놓은 승부마 (+5점)</td>
+                            </tr>
+                            <tr>
+                                <td><span class="ai-tag purple-tag">찰떡 콤비(우승 경험) 🤝</span></td>
+                                <td><strong>[호흡 검증]</strong> 이 기수가 이 말을 타고 과거 1착 또는 2착 입상을 합작해 본 단짝 콤비 (+6점)</td>
+                            </tr>
+                            <!-- 기존 핵심 뱃지군 -->
                             <tr>
                                 <td><span class="ai-tag gold-tag">과거 스피드 최상 🏎️</span></td>
                                 <td><strong>[경기 전 아침]</strong> 출마표의 과거 통산 최고기록이 기준보다 1초 이상 빠른 말</td>
@@ -212,14 +234,6 @@
                             <tr>
                                 <td><span class="ai-tag gold-tag">스피드 지수 최상 🏎️</span></td>
                                 <td><strong>[경기 후 복기]</strong> 오늘 실제 결승선을 기준보다 1초 이상 빠르게 통과한 우승마</td>
-                            </tr>
-                            <tr>
-                                <td><span class="ai-tag">능력평점 최상(Rating)</span></td>
-                                <td><strong>[경기 전 아침]</strong> 마사회 공식 능력 평점(R65 이상) 검증마</td>
-                            </tr>
-                            <tr>
-                                <td><span class="ai-tag">직선주로 스퍼트 최강 🚀</span></td>
-                                <td><strong>[경기 후 복기]</strong> 결승선 앞 200m(G1F)를 12.8초 이하로 주파한 탄력마</td>
                             </tr>
                             <tr>
                                 <td><span class="ai-tag gold-tag">초특급 꿀배당 복병 💰</span></td>
@@ -258,15 +272,8 @@
                 </div>
 
                 <div class="guide-card">
-                    <div class="guide-title">❓ 한 말이 뱃지를 다 받을 수 있나?</div>
-                    <div class="guide-box warn">
-                        <strong>결론: 절대 불가능합니다!</strong><br>
-                        인기마 vs 복병마, 특급 vs 상위 기수처럼 서로 반대되는 뱃지들이 있기 때문에 이론상 최다 뱃지는 <strong>약 6~7개</strong>입니다.
-                    </div>
-                </div>
-
-                <div class="guide-card">
-                    <div class="guide-title">🦄 만약 이런 '괴물말'이 출전한다면? (예시)</div>
+                    <div class="guide-title">🦄 V5.0 궁극의 '괴물말' 예시</div>
+                    <div class="guide-text">조교, 장구, 콤비, 스피드까지 풀옵션으로 장착된 이론상 최고 스펙 카드입니다:</div>
                     <div class="horse-card rank-1" style="margin-top:10px;">
                         <div class="gate-no">1</div>
                         <div class="horse-info">
@@ -275,17 +282,21 @@
                             <div class="tag-list" style="margin-top:4px;">
                                 <span class="ai-tag">특급 기수 🏇</span>
                                 <span class="ai-tag">우수 마방 🏆</span>
-                                <span class="ai-tag">단거리 황금게이트 ⚡</span>
-                                <span class="ai-tag">경량 부중(51.0kg) ⚡</span>
+                                <span class="ai-tag purple-tag">기수 직접 전담조교 🚴</span>
+                                <span class="ai-tag purple-tag">새벽 습보 강훈련 🏋️</span>
+                                <span class="ai-tag purple-tag">찰떡 콤비(우승 경험) 🤝</span>
+                                <span class="ai-tag purple-tag">눈가면 첫 착용 🤿</span>
                                 <span class="ai-tag gold-tag">과거 스피드 최상(73.2초) 🏎️</span>
-                                <span class="ai-tag">단독 선행 찬스 🚀</span>
-                                <span class="ai-tag">대중 강력 지지(1.6배) 🔥</span>
+                                <span class="ai-tag">단거리 황금게이트 ⚡</span>
                             </div>
                         </div>
                         <div class="score-info">
-                            <div class="win-rate">98.5점</div>
-                            <div style="font-size:0.7rem; color:#888;">단승 1.6배</div>
+                            <div class="win-rate">105.2점</div>
+                            <div style="font-size:0.7rem; color:#888;">단승 1.8배</div>
                         </div>
+                    </div>
+                    <div class="guide-box purple" style="margin-top:10px;">
+                        💡 <strong>V5.0 꿀팁:</strong> 보라색 뱃지(조교/장구/콤비)가 달린 말은 대중들이 모르는 마방의 비밀 승부수이므로 고배당 복병으로 반드시 챙겨가세요!
                     </div>
                 </div>
             </div>
@@ -298,7 +309,7 @@
                         <strong>👍 돈 걸기 딱 좋은 경주 (승부 경주):</strong><br>
                         • 1등 말의 AI 점수가 <strong>85점 이상</strong>으로 높을 때<br>
                         • 1등과 2등의 점수 차이가 <strong>4~5점 이상</strong> 크게 벌어져 있을 때<br>
-                        • 1등 말에 <strong>[단독 선행], [특급 기수], [황금게이트]</strong> 등 핵심 뱃지가 2개 이상 달렸을 때
+                        • 1등 말에 <strong>[단독 선행], [특급 기수], [전담 조교]</strong> 등 핵심 뱃지가 달렸을 때
                     </div>
                     <div class="guide-box warn">
                         <strong>⚠️ 돈 걸지 말고 패스할 경주:</strong><br>
@@ -323,7 +334,7 @@
                     <div class="guide-text">
                         • <strong>승식</strong>: <strong>「복승식」</strong> 2구멍 분산<br>
                         • 1구멍: [AI 1위 - AI 2위] (인기 조합, 금액 60%)<br>
-                        • 2구멍: [AI 1위 - AI 3~5위 중 꿀배당/경량부중 복병마] (고배당 조합, 금액 40%)
+                        • 2구멍: [AI 1위 - 보라색 뱃지/꿀배당 달린 복병마] (고배당 조합, 금액 40%)
                     </div>
                 </div>
 
@@ -481,7 +492,7 @@
                         select.appendChild(opt);
                     });
 
-                    document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V4.0 스피드·앙상블 분석`;
+                    document.getElementById('dateInfo').textContent = `${data[0].race_date} AI V5.0 프로 엔진 분석`;
                     renderRace(0);
                 })
                 .catch(err => {
@@ -552,8 +563,10 @@
                 let tagsHtml = '';
                 if (h.ai_tags && h.ai_tags.length > 0) {
                     tagsHtml = '<div class="tag-list">' + h.ai_tags.map(t => {
-                        const isGold = t.includes('꿀배당') || t.includes('스피드') || t.includes('과거');
-                        return `<span class="ai-tag ${isGold ? 'gold-tag' : ''}">${t}</span>`;
+                        const isGold = t.includes('꿀배당') || t.includes('스피드');
+                        const isPurple = t.includes('눈가면') || t.includes('조교') || t.includes('훈련') || t.includes('콤비');
+                        const tagClass = isPurple ? 'purple-tag' : (isGold ? 'gold-tag' : '');
+                        return `<span class="ai-tag ${tagClass}">${t}</span>`;
                     }).join('') + '</div>';
                 }
 
