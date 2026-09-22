@@ -4,7 +4,7 @@
     "meet_name": "서울",
     "race_no": "1",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1000",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -14,7 +14,6 @@
         "jockey": "빅투아르",
         "trainer": "서홍수",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:16.5",
         "g1f_time": "",
@@ -22,32 +21,12 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 83.6,
+        "distance": "1000",
+        "ai_score": 73.6,
         "ai_tags": [
           "특급 기수 🏇",
           "우수 마방 🏆",
-          "스피드 지수 최상(76.5초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "불타오르네",
-        "jockey": "서승운",
-        "trainer": "최용건",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:16.1",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "6",
-        "ai_score": 82.0,
-        "ai_tags": [
-          "특급 기수 🏇",
-          "스피드 지수 최상(76.1초) 🏎️"
+          "단거리 황금게이트 ⚡"
         ],
         "odds_display": "-"
       },
@@ -57,7 +36,6 @@
         "jockey": "마이아",
         "trainer": "정호익",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:14.7",
         "g1f_time": "",
@@ -65,152 +43,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 78.6,
+        "distance": "1000",
+        "ai_score": 68.6,
         "ai_tags": [
           "상위 기수",
-          "스피드 지수 최상(74.7초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "6",
-        "name": "더로드",
-        "jockey": "임기원",
-        "trainer": "송문길",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:12.8",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "1",
-        "ai_score": 72.0,
-        "ai_tags": [
-          "우수 마방 🏆",
-          "스피드 지수 최상(72.8초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "4",
-        "name": "히다카의태양",
-        "jockey": "이동하",
-        "trainer": "차우호",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:16.8",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "9",
-        "ai_score": 70.0,
-        "ai_tags": [
-          "스피드 지수 최상(76.8초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "11",
-        "name": "마이티원더",
-        "jockey": "유승완",
-        "trainer": "문세영",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:15.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 65.0,
-        "ai_tags": [
-          "상위 기수",
-          "스피드 지수 최상(75.6초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "7",
-        "name": "엠파이어스타",
-        "jockey": "코지",
-        "trainer": "박재우",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:16.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "8",
-        "ai_score": 63.9,
-        "ai_tags": [
-          "스피드 지수 최상(76.6초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "9",
-        "name": "빅토리라이프",
-        "jockey": "송재철",
-        "trainer": "이준철",
-        "weight": "55",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:17.3",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "10",
-        "ai_score": 62.6,
-        "ai_tags": [
-          "스피드 지수 최상(77.3초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "10",
-        "name": "이센셜포스",
-        "jockey": "장추열",
-        "trainer": "강성오",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:14.9",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "3",
-        "ai_score": 62.6,
-        "ai_tags": [
-          "스피드 지수 최상(74.9초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "5",
-        "name": "플래시볼트",
-        "jockey": "김태훈",
-        "trainer": "문병기",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:15.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 61.2,
-        "ai_tags": [
-          "스피드 지수 최상(75.6초) 🏎️"
+          "단거리 황금게이트 ⚡"
         ],
         "odds_display": "-"
       },
@@ -220,7 +57,6 @@
         "jockey": "정정희",
         "trainer": "리카디",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "-",
         "g1f_time": "",
@@ -228,7 +64,160 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "-",
-        "ai_score": 55.2,
+        "distance": "1000",
+        "ai_score": 60.2,
+        "ai_tags": [
+          "단거리 황금게이트 ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "6",
+        "name": "더로드",
+        "jockey": "임기원",
+        "trainer": "송문길",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:12.8",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "1",
+        "distance": "1000",
+        "ai_score": 58.0,
+        "ai_tags": [
+          "우수 마방 🏆"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "불타오르네",
+        "jockey": "서승운",
+        "trainer": "최용건",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:16.1",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "6",
+        "distance": "1000",
+        "ai_score": 57.0,
+        "ai_tags": [
+          "특급 기수 🏇"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "4",
+        "name": "히다카의태양",
+        "jockey": "이동하",
+        "trainer": "차우호",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:16.8",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "9",
+        "distance": "1000",
+        "ai_score": 52.0,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "7",
+        "name": "엠파이어스타",
+        "jockey": "코지",
+        "trainer": "박재우",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:16.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "8",
+        "distance": "1000",
+        "ai_score": 49.9,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "5",
+        "name": "플래시볼트",
+        "jockey": "김태훈",
+        "trainer": "문병기",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:15.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "4",
+        "distance": "1000",
+        "ai_score": 47.2,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "11",
+        "name": "마이티원더",
+        "jockey": "유승완",
+        "trainer": "문세영",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:15.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "5",
+        "distance": "1000",
+        "ai_score": 45.0,
+        "ai_tags": [
+          "상위 기수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "9",
+        "name": "빅토리라이프",
+        "jockey": "송재철",
+        "trainer": "이준철",
+        "weight": "55",
+        "track": "양호",
+        "rc_time": "1:17.3",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "10",
+        "distance": "1000",
+        "ai_score": 42.6,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "10",
+        "name": "이센셜포스",
+        "jockey": "장추열",
+        "trainer": "강성오",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:14.9",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "3",
+        "distance": "1000",
+        "ai_score": 42.6,
         "ai_tags": [],
         "odds_display": "-"
       }
@@ -239,7 +228,7 @@
     "meet_name": "서울",
     "race_no": "2",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1200",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -249,7 +238,6 @@
         "jockey": "서승운",
         "trainer": "서홍수",
         "weight": "52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:32.8",
         "g1f_time": "",
@@ -257,10 +245,33 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
-        "ai_score": 78.7,
+        "distance": "1200",
+        "ai_score": 83.7,
         "ai_tags": [
           "특급 기수 🏇",
           "우수 마방 🏆",
+          "단거리 황금게이트 ⚡",
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "2",
+        "name": "서귀메니퀸",
+        "jockey": "최범현",
+        "trainer": "박지헌",
+        "weight": "52.5",
+        "track": "양호",
+        "rc_time": "1:31.5",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "6",
+        "distance": "1200",
+        "ai_score": 64.7,
+        "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
@@ -271,7 +282,6 @@
         "jockey": "마이아",
         "trainer": "서홍수",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:28.3",
         "g1f_time": "",
@@ -279,52 +289,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 76.1,
+        "distance": "1200",
+        "ai_score": 63.1,
         "ai_tags": [
           "상위 기수",
-          "우수 마방 🏆",
-          "기록 우수"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "9",
-        "name": "유니콘에이스",
-        "jockey": "빅투아르",
-        "trainer": "리카디",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:28.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "2",
-        "ai_score": 63.3,
-        "ai_tags": [
-          "특급 기수 🏇",
-          "기록 우수"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "2",
-        "name": "서귀메니퀸",
-        "jockey": "최범현",
-        "trainer": "박지헌",
-        "weight": "52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:31.5",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "6",
-        "ai_score": 59.7,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "우수 마방 🏆"
         ],
         "odds_display": "-"
       },
@@ -334,7 +303,6 @@
         "jockey": "송재철",
         "trainer": "이동국",
         "weight": "52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:33.5",
         "g1f_time": "",
@@ -342,7 +310,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "11",
-        "ai_score": 58.9,
+        "distance": "1200",
+        "ai_score": 59.8,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
         ],
@@ -354,7 +323,6 @@
         "jockey": "임다빈",
         "trainer": "정호익",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:31.2",
         "g1f_time": "",
@@ -362,25 +330,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
-        "ai_score": 56.8,
-        "ai_tags": [],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "골드엑스",
-        "jockey": "루이스",
-        "trainer": "심승태",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:29.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "3",
-        "ai_score": 52.5,
+        "distance": "1200",
+        "ai_score": 57.8,
         "ai_tags": [],
         "odds_display": "-"
       },
@@ -390,7 +341,6 @@
         "jockey": "푸르칸",
         "trainer": "이신우",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:32.0",
         "g1f_time": "",
@@ -398,8 +348,31 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 50.2,
-        "ai_tags": [],
+        "distance": "1200",
+        "ai_score": 55.2,
+        "ai_tags": [
+          "단거리 황금게이트 ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "9",
+        "name": "유니콘에이스",
+        "jockey": "빅투아르",
+        "trainer": "리카디",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:28.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "2",
+        "distance": "1200",
+        "ai_score": 48.3,
+        "ai_tags": [
+          "특급 기수 🏇"
+        ],
         "odds_display": "-"
       },
       {
@@ -408,7 +381,6 @@
         "jockey": "안드레",
         "trainer": "안병기",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:32.4",
         "g1f_time": "",
@@ -416,7 +388,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 46.2,
+        "distance": "1200",
+        "ai_score": 47.2,
         "ai_tags": [],
         "odds_display": "-"
       },
@@ -426,7 +399,6 @@
         "jockey": "코지",
         "trainer": "토니",
         "weight": "52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:30.8",
         "g1f_time": "",
@@ -434,7 +406,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
-        "ai_score": 46.2,
+        "distance": "1200",
+        "ai_score": 41.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
         ],
@@ -446,7 +419,6 @@
         "jockey": "우인철",
         "trainer": "이관호",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:31.6",
         "g1f_time": "",
@@ -454,7 +426,26 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 43.8,
+        "distance": "1200",
+        "ai_score": 38.8,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "골드엑스",
+        "jockey": "루이스",
+        "trainer": "심승태",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:29.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "3",
+        "distance": "1200",
+        "ai_score": 37.5,
         "ai_tags": [],
         "odds_display": "-"
       }
@@ -465,7 +456,7 @@
     "meet_name": "서울",
     "race_no": "3",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1300",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -475,7 +466,6 @@
         "jockey": "조상범",
         "trainer": "조현수",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.7",
         "g1f_time": "",
@@ -483,30 +473,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 69.3,
+        "distance": "1300",
+        "ai_score": 59.3,
         "ai_tags": [
-          "스피드 지수 최상(85.7초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "태광프린스",
-        "jockey": "권중석",
-        "trainer": "배휴준",
-        "weight": "54",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:24.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "7",
-        "ai_score": 66.9,
-        "ai_tags": [
-          "우수 마방 🏆",
-          "스피드 지수 최상(84.6초) 🏎️"
+          "단거리 황금게이트 ⚡"
         ],
         "odds_display": "-"
       },
@@ -516,7 +486,6 @@
         "jockey": "조한별",
         "trainer": "임채덕",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:24.2",
         "g1f_time": "",
@@ -524,49 +493,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 66.5,
+        "distance": "1300",
+        "ai_score": 56.5,
         "ai_tags": [
-          "스피드 지수 최상(84.2초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "4",
-        "name": "해마루챗",
-        "jockey": "오수철",
-        "trainer": "임채덕",
-        "weight": "54",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:24.3",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 66.5,
-        "ai_tags": [
-          "스피드 지수 최상(84.3초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "5",
-        "name": "마스크맨",
-        "jockey": "송재철",
-        "trainer": "문병기",
-        "weight": "56",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:24.1",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "2",
-        "ai_score": 65.1,
-        "ai_tags": [
-          "스피드 지수 최상(84.1초) 🏎️"
+          "단거리 황금게이트 ⚡"
         ],
         "odds_display": "-"
       },
@@ -576,7 +506,6 @@
         "jockey": "김아현",
         "trainer": "강환민",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:23.3",
         "g1f_time": "",
@@ -584,10 +513,9 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 62.5,
-        "ai_tags": [
-          "스피드 지수 최상(83.3초) 🏎️"
-        ],
+        "distance": "1300",
+        "ai_score": 53.5,
+        "ai_tags": [],
         "odds_display": "-"
       },
       {
@@ -596,7 +524,6 @@
         "jockey": "안드레",
         "trainer": "박윤규",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:24.4",
         "g1f_time": "",
@@ -604,10 +531,47 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
-        "ai_score": 61.5,
+        "distance": "1300",
+        "ai_score": 51.5,
         "ai_tags": [
-          "스피드 지수 최상(84.4초) 🏎️"
+          "단거리 황금게이트 ⚡"
         ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "5",
+        "name": "마스크맨",
+        "jockey": "송재철",
+        "trainer": "문병기",
+        "weight": "56",
+        "track": "양호",
+        "rc_time": "1:24.1",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "2",
+        "distance": "1300",
+        "ai_score": 51.1,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "4",
+        "name": "해마루챗",
+        "jockey": "오수철",
+        "trainer": "임채덕",
+        "weight": "54",
+        "track": "양호",
+        "rc_time": "1:24.3",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "4",
+        "distance": "1300",
+        "ai_score": 48.5,
+        "ai_tags": [],
         "odds_display": "-"
       },
       {
@@ -616,7 +580,6 @@
         "jockey": "우인철",
         "trainer": "이관호",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:24.6",
         "g1f_time": "",
@@ -624,9 +587,28 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 60.0,
+        "distance": "1300",
+        "ai_score": 46.0,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "태광프린스",
+        "jockey": "권중석",
+        "trainer": "배휴준",
+        "weight": "54",
+        "track": "양호",
+        "rc_time": "1:24.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "7",
+        "distance": "1300",
+        "ai_score": 41.9,
         "ai_tags": [
-          "스피드 지수 최상(84.6초) 🏎️"
+          "우수 마방 🏆"
         ],
         "odds_display": "-"
       }
@@ -647,7 +629,6 @@
         "jockey": "유승완",
         "trainer": "김동균",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:53.3",
         "g1f_time": "",
@@ -655,6 +636,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
+        "distance": "1400",
         "ai_score": 60.3,
         "ai_tags": [
           "상위 기수"
@@ -667,7 +649,6 @@
         "jockey": "빅투아르",
         "trainer": "성상현",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:54.7",
         "g1f_time": "",
@@ -675,6 +656,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
+        "distance": "1400",
         "ai_score": 59.6,
         "ai_tags": [
           "특급 기수 🏇"
@@ -687,7 +669,6 @@
         "jockey": "송재철",
         "trainer": "서인석",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:52.8",
         "g1f_time": "",
@@ -695,6 +676,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
+        "distance": "1400",
         "ai_score": 56.6,
         "ai_tags": [],
         "odds_display": "-"
@@ -705,7 +687,6 @@
         "jockey": "임기원",
         "trainer": "박재우",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:56.8",
         "g1f_time": "",
@@ -713,6 +694,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
+        "distance": "1400",
         "ai_score": 55.1,
         "ai_tags": [],
         "odds_display": "-"
@@ -723,7 +705,6 @@
         "jockey": "임다빈",
         "trainer": "배휴준",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:55.1",
         "g1f_time": "",
@@ -731,6 +712,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
+        "distance": "1400",
         "ai_score": 53.7,
         "ai_tags": [
           "우수 마방 🏆"
@@ -743,7 +725,6 @@
         "jockey": "김아현",
         "trainer": "김동균",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:56.9",
         "g1f_time": "",
@@ -751,6 +732,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
+        "distance": "1400",
         "ai_score": 51.5,
         "ai_tags": [],
         "odds_display": "-"
@@ -761,7 +743,6 @@
         "jockey": "김정준",
         "trainer": "심승태",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:57.9",
         "g1f_time": "",
@@ -769,6 +750,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
+        "distance": "1400",
         "ai_score": 47.8,
         "ai_tags": [],
         "odds_display": "-"
@@ -779,7 +761,6 @@
         "jockey": "조상범",
         "trainer": "성상현",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:53.5",
         "g1f_time": "",
@@ -787,6 +768,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
+        "distance": "1400",
         "ai_score": 45.3,
         "ai_tags": [],
         "odds_display": "-"
@@ -797,7 +779,6 @@
         "jockey": "김태현",
         "trainer": "심승태",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:53.7",
         "g1f_time": "",
@@ -805,6 +786,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
+        "distance": "1400",
         "ai_score": 43.8,
         "ai_tags": [],
         "odds_display": "-"
@@ -815,7 +797,6 @@
         "jockey": "정정희",
         "trainer": "안병기",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:53.6",
         "g1f_time": "",
@@ -823,6 +804,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
+        "distance": "1400",
         "ai_score": 42.5,
         "ai_tags": [],
         "odds_display": "-"
@@ -844,7 +826,6 @@
         "jockey": "빅투아르",
         "trainer": "문세영",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:00.1",
         "g1f_time": "",
@@ -852,6 +833,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
+        "distance": "1400",
         "ai_score": 67.3,
         "ai_tags": [
           "특급 기수 🏇",
@@ -865,7 +847,6 @@
         "jockey": "임다빈",
         "trainer": "서인석",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:01.9",
         "g1f_time": "",
@@ -873,6 +854,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
+        "distance": "1400",
         "ai_score": 57.3,
         "ai_tags": [],
         "odds_display": "-"
@@ -883,7 +865,6 @@
         "jockey": "서승운",
         "trainer": "이신우",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:59.9",
         "g1f_time": "",
@@ -891,6 +872,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
+        "distance": "1400",
         "ai_score": 57.2,
         "ai_tags": [
           "특급 기수 🏇"
@@ -903,7 +885,6 @@
         "jockey": "정정희",
         "trainer": "차우호",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:01.3",
         "g1f_time": "",
@@ -911,6 +892,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
+        "distance": "1400",
         "ai_score": 55.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
@@ -923,7 +905,6 @@
         "jockey": "권중석",
         "trainer": "배휴준",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:01.4",
         "g1f_time": "",
@@ -931,6 +912,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
+        "distance": "1400",
         "ai_score": 54.4,
         "ai_tags": [
           "우수 마방 🏆",
@@ -944,7 +926,6 @@
         "jockey": "김태훈",
         "trainer": "심승태",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:00.5",
         "g1f_time": "",
@@ -952,6 +933,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
+        "distance": "1400",
         "ai_score": 52.5,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
@@ -964,7 +946,6 @@
         "jockey": "김아현",
         "trainer": "박지헌",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:04.7",
         "g1f_time": "",
@@ -972,6 +953,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "11",
+        "distance": "1400",
         "ai_score": 51.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
@@ -984,7 +966,6 @@
         "jockey": "이용호",
         "trainer": "전승규",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:02.2",
         "g1f_time": "",
@@ -992,6 +973,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
+        "distance": "1400",
         "ai_score": 50.8,
         "ai_tags": [],
         "odds_display": "-"
@@ -1002,7 +984,6 @@
         "jockey": "다실바",
         "trainer": "서인석",
         "weight": "56.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:59.6",
         "g1f_time": "",
@@ -1010,6 +991,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
+        "distance": "1400",
         "ai_score": 46.8,
         "ai_tags": [],
         "odds_display": "-"
@@ -1020,7 +1002,6 @@
         "jockey": "우인철",
         "trainer": "강성오",
         "weight": "52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:00.0",
         "g1f_time": "",
@@ -1028,6 +1009,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
+        "distance": "1400",
         "ai_score": 46.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
@@ -1040,7 +1022,6 @@
         "jockey": "조상범",
         "trainer": "홍윤화",
         "weight": "56.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:02.2",
         "g1f_time": "",
@@ -1048,6 +1029,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
+        "distance": "1400",
         "ai_score": 44.0,
         "ai_tags": [],
         "odds_display": "-"
@@ -1059,7 +1041,7 @@
     "meet_name": "서울",
     "race_no": "6",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1300",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -1069,7 +1051,6 @@
         "jockey": "서승운",
         "trainer": "이강서",
         "weight": "53",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:16.1",
         "g1f_time": "",
@@ -1077,52 +1058,12 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 88.6,
+        "distance": "1300",
+        "ai_score": 93.6,
         "ai_tags": [
           "특급 기수 🏇",
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(76.1초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "4",
-        "name": "강한감마",
-        "jockey": "이혁",
-        "trainer": "성상현",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:15.3",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 77.6,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(75.3초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "5",
-        "name": "태평에스지",
-        "jockey": "마이아",
-        "trainer": "박재우",
-        "weight": "53.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:14.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "1",
-        "ai_score": 76.0,
-        "ai_tags": [
-          "상위 기수",
-          "스피드 지수 최상(74.4초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1132,7 +1073,6 @@
         "jockey": "김효정",
         "trainer": "박재우",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:17.3",
         "g1f_time": "",
@@ -1140,32 +1080,54 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
-        "ai_score": 74.5,
+        "distance": "1300",
+        "ai_score": 79.5,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(77.3초) 🏎️"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "11",
-        "name": "관악산빅스텝",
-        "jockey": "빅투아르",
-        "trainer": "송문길",
-        "weight": "54",
-        "distance": "1400",
+        "gate": "5",
+        "name": "태평에스지",
+        "jockey": "마이아",
+        "trainer": "박재우",
+        "weight": "53.5",
         "track": "양호",
-        "rc_time": "1:15.7",
+        "rc_time": "1:14.4",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 74.3,
+        "actual_ord": "1",
+        "distance": "1300",
+        "ai_score": 77.0,
         "ai_tags": [
-          "특급 기수 🏇",
-          "우수 마방 🏆",
-          "스피드 지수 최상(75.7초) 🏎️"
+          "상위 기수",
+          "스피드 지수 최상(74.4초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "4",
+        "name": "강한감마",
+        "jockey": "이혁",
+        "trainer": "성상현",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:15.3",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "4",
+        "distance": "1300",
+        "ai_score": 74.6,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(75.3초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1175,7 +1137,6 @@
         "jockey": "우인철",
         "trainer": "이관호",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:15.1",
         "g1f_time": "",
@@ -1183,9 +1144,33 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 67.8,
+        "distance": "1300",
+        "ai_score": 72.8,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(75.1초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "11",
+        "name": "관악산빅스텝",
+        "jockey": "빅투아르",
+        "trainer": "송문길",
+        "weight": "54",
+        "track": "양호",
+        "rc_time": "1:15.7",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "5",
+        "distance": "1300",
+        "ai_score": 69.3,
+        "ai_tags": [
+          "특급 기수 🏇",
+          "우수 마방 🏆",
+          "스피드 지수 최상(75.7초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1195,7 +1180,6 @@
         "jockey": "김태희",
         "trainer": "서인석",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:17.0",
         "g1f_time": "",
@@ -1203,7 +1187,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 65.2,
+        "distance": "1300",
+        "ai_score": 66.2,
         "ai_tags": [
           "스피드 지수 최상(77.0초) 🏎️"
         ],
@@ -1215,7 +1200,6 @@
         "jockey": "루이스",
         "trainer": "정호익",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:15.1",
         "g1f_time": "",
@@ -1223,7 +1207,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 65.0,
+        "distance": "1300",
+        "ai_score": 66.0,
         "ai_tags": [
           "스피드 지수 최상(75.1초) 🏎️"
         ],
@@ -1235,7 +1220,6 @@
         "jockey": "김아현",
         "trainer": "조현수",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:16.8",
         "g1f_time": "",
@@ -1243,7 +1227,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 61.2,
+        "distance": "1300",
+        "ai_score": 56.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(76.8초) 🏎️"
@@ -1256,7 +1241,6 @@
         "jockey": "안드레",
         "trainer": "박윤규",
         "weight": "55.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:16.2",
         "g1f_time": "",
@@ -1264,7 +1248,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 53.8,
+        "distance": "1300",
+        "ai_score": 48.8,
         "ai_tags": [
           "스피드 지수 최상(76.2초) 🏎️"
         ],
@@ -1276,7 +1261,6 @@
         "jockey": "이용호",
         "trainer": "차우호",
         "weight": "57",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "-",
         "g1f_time": "",
@@ -1284,7 +1268,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "-",
-        "ai_score": 45.0,
+        "distance": "1300",
+        "ai_score": 35.0,
         "ai_tags": [],
         "odds_display": "-"
       }
@@ -1295,7 +1280,7 @@
     "meet_name": "서울",
     "race_no": "7",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1300",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -1305,7 +1290,6 @@
         "jockey": "서승운",
         "trainer": "김동균",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:23.1",
         "g1f_time": "",
@@ -1313,116 +1297,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 77.2,
+        "distance": "1300",
+        "ai_score": 68.2,
         "ai_tags": [
-          "특급 기수 🏇",
-          "스피드 지수 최상(83.1초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "4",
-        "name": "대한코코즈",
-        "jockey": "장추열",
-        "trainer": "강성오",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:23.1",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 76.7,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(83.1초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "3",
-        "name": "비케이비바체",
-        "jockey": "권중석",
-        "trainer": "조현수",
-        "weight": "51.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:24.7",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "10",
-        "ai_score": 72.8,
-        "ai_tags": [
-          "경량 부중(51.5kg) ⚡",
-          "스피드 지수 최상(84.7초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "10",
-        "name": "선더파이어",
-        "jockey": "김용근",
-        "trainer": "함완식",
-        "weight": "52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:22.7",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 72.8,
-        "ai_tags": [
-          "상위 기수",
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(82.7초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "신라의파이터",
-        "jockey": "김태현",
-        "trainer": "박재우",
-        "weight": "52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:23.1",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "7",
-        "ai_score": 68.8,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(83.1초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "9",
-        "name": "골든세이브",
-        "jockey": "임다빈",
-        "trainer": "박지헌",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:22.5",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "3",
-        "ai_score": 68.0,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(82.5초) 🏎️"
+          "특급 기수 🏇"
         ],
         "odds_display": "-"
       },
@@ -1432,7 +1310,6 @@
         "jockey": "김태훈",
         "trainer": "서인석",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:21.8",
         "g1f_time": "",
@@ -1440,50 +1317,31 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
+        "distance": "1300",
         "ai_score": 66.8,
         "ai_tags": [
-          "스피드 지수 최상(81.8초) 🏎️"
+          "단거리 황금게이트 ⚡",
+          "기록 우수"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "6",
-        "name": "트리플에스",
-        "jockey": "김아현",
-        "trainer": "임채덕",
+        "gate": "4",
+        "name": "대한코코즈",
+        "jockey": "장추열",
+        "trainer": "강성오",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
-        "rc_time": "1:23.9",
+        "rc_time": "1:23.1",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "9",
-        "ai_score": 66.2,
+        "actual_ord": "5",
+        "distance": "1300",
+        "ai_score": 63.6,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(83.9초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "5",
-        "name": "파카샤인",
-        "jockey": "코지",
-        "trainer": "전승규",
-        "weight": "54.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:25.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "11",
-        "ai_score": 63.2,
-        "ai_tags": [
-          "스피드 지수 최상(85.6초) 🏎️"
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       },
@@ -1493,7 +1351,6 @@
         "jockey": "루이스",
         "trainer": "정호익",
         "weight": "57",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:21.4",
         "g1f_time": "",
@@ -1501,9 +1358,131 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
+        "distance": "1300",
         "ai_score": 62.8,
         "ai_tags": [
-          "스피드 지수 최상(81.4초) 🏎️"
+          "단거리 황금게이트 ⚡",
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "3",
+        "name": "비케이비바체",
+        "jockey": "권중석",
+        "trainer": "조현수",
+        "weight": "51.5",
+        "track": "양호",
+        "rc_time": "1:24.7",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "10",
+        "distance": "1300",
+        "ai_score": 62.8,
+        "ai_tags": [
+          "단거리 황금게이트 ⚡",
+          "경량 부중(51.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "10",
+        "name": "선더파이어",
+        "jockey": "김용근",
+        "trainer": "함완식",
+        "weight": "52.5",
+        "track": "양호",
+        "rc_time": "1:22.7",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "4",
+        "distance": "1300",
+        "ai_score": 57.9,
+        "ai_tags": [
+          "상위 기수",
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "6",
+        "name": "트리플에스",
+        "jockey": "김아현",
+        "trainer": "임채덕",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:23.9",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "9",
+        "distance": "1300",
+        "ai_score": 57.2,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "9",
+        "name": "골든세이브",
+        "jockey": "임다빈",
+        "trainer": "박지헌",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:22.5",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "3",
+        "distance": "1300",
+        "ai_score": 53.0,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "5",
+        "name": "파카샤인",
+        "jockey": "코지",
+        "trainer": "전승규",
+        "weight": "54.5",
+        "track": "양호",
+        "rc_time": "1:25.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "11",
+        "distance": "1300",
+        "ai_score": 49.2,
+        "ai_tags": [],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "신라의파이터",
+        "jockey": "김태현",
+        "trainer": "박재우",
+        "weight": "52.5",
+        "track": "양호",
+        "rc_time": "1:23.1",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "7",
+        "distance": "1300",
+        "ai_score": 48.9,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       },
@@ -1513,7 +1492,6 @@
         "jockey": "다실바",
         "trainer": "이동국",
         "weight": "52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:23.5",
         "g1f_time": "",
@@ -1521,10 +1499,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 61.2,
+        "distance": "1300",
+        "ai_score": 46.2,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(83.5초) 🏎️"
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       }
@@ -1535,7 +1513,7 @@
     "meet_name": "서울",
     "race_no": "8",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1800",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -1545,7 +1523,6 @@
         "jockey": "서승운",
         "trainer": "손병철",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:24.1",
         "g1f_time": "",
@@ -1553,7 +1530,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 77.2,
+        "distance": "1800",
+        "ai_score": 76.2,
         "ai_tags": [
           "특급 기수 🏇",
           "스피드 지수 최상(84.1초) 🏎️"
@@ -1566,7 +1544,6 @@
         "jockey": "최범현",
         "trainer": "이강서",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.5",
         "g1f_time": "",
@@ -1574,29 +1551,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 70.8,
+        "distance": "1800",
+        "ai_score": 68.8,
         "ai_tags": [
           "스피드 지수 최상(85.5초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "1",
-        "name": "[부]선라이즈",
-        "jockey": "채상현",
-        "trainer": "하무선",
-        "weight": "53.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:26.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "11",
-        "ai_score": 67.8,
-        "ai_tags": [
-          "스피드 지수 최상(86.6초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1606,7 +1564,6 @@
         "jockey": "조인권",
         "trainer": "임성실",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.1",
         "g1f_time": "",
@@ -1614,7 +1571,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "13",
-        "ai_score": 66.9,
+        "distance": "1800",
+        "ai_score": 67.9,
         "ai_tags": [
           "상위 기수",
           "스피드 지수 최상(87.1초) 🏎️"
@@ -1627,7 +1585,6 @@
         "jockey": "김용근",
         "trainer": "이준철",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.2",
         "g1f_time": "",
@@ -1635,7 +1592,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 66.6,
+        "distance": "1800",
+        "ai_score": 67.6,
         "ai_tags": [
           "상위 기수",
           "스피드 지수 최상(86.2초) 🏎️"
@@ -1643,20 +1601,40 @@
         "odds_display": "-"
       },
       {
-        "gate": "6",
-        "name": "글라디우스",
-        "jockey": "임기원",
-        "trainer": "강성오",
-        "weight": "55",
-        "distance": "1400",
+        "gate": "11",
+        "name": "캐치레이스",
+        "jockey": "이동하",
+        "trainer": "서인석",
+        "weight": "53.5",
+        "track": "양호",
+        "rc_time": "1:27.0",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "12",
+        "distance": "1800",
+        "ai_score": 67.5,
+        "ai_tags": [
+          "스피드 지수 최상(87.0초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "1",
+        "name": "[부]선라이즈",
+        "jockey": "채상현",
+        "trainer": "하무선",
+        "weight": "53.5",
         "track": "양호",
         "rc_time": "1:26.6",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "10",
-        "ai_score": 66.0,
+        "actual_ord": "11",
+        "distance": "1800",
+        "ai_score": 67.2,
         "ai_tags": [
           "스피드 지수 최상(86.6초) 🏎️"
         ],
@@ -1668,7 +1646,6 @@
         "jockey": "정도윤",
         "trainer": "임금만",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.5",
         "g1f_time": "",
@@ -1676,7 +1653,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 65.0,
+        "distance": "1800",
+        "ai_score": 66.0,
         "ai_tags": [
           "상위 기수",
           "스피드 지수 최상(86.5초) 🏎️"
@@ -1684,40 +1662,20 @@
         "odds_display": "-"
       },
       {
-        "gate": "11",
-        "name": "캐치레이스",
-        "jockey": "이동하",
-        "trainer": "서인석",
-        "weight": "53.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:27.0",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "12",
-        "ai_score": 65.0,
-        "ai_tags": [
-          "스피드 지수 최상(87.0초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "2",
-        "name": "클럽큐",
-        "jockey": "김아현",
-        "trainer": "최영주",
+        "gate": "6",
+        "name": "글라디우스",
+        "jockey": "임기원",
+        "trainer": "강성오",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.6",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "9",
-        "ai_score": 64.0,
+        "actual_ord": "10",
+        "distance": "1800",
+        "ai_score": 65.0,
         "ai_tags": [
           "스피드 지수 최상(86.6초) 🏎️"
         ],
@@ -1729,7 +1687,6 @@
         "jockey": "루이스",
         "trainer": "정호익",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.4",
         "g1f_time": "",
@@ -1737,49 +1694,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 62.5,
+        "distance": "1800",
+        "ai_score": 65.0,
         "ai_tags": [
           "스피드 지수 최상(86.4초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "12",
-        "name": "[부]클리어리위너",
-        "jockey": "다실바",
-        "trainer": "구영준",
-        "weight": "53.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:26.1",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 62.0,
-        "ai_tags": [
-          "스피드 지수 최상(86.1초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "5",
-        "name": "[부]즐거운여정",
-        "jockey": "진겸",
-        "trainer": "이상영",
-        "weight": "55",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:26.2",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 60.0,
-        "ai_tags": [
-          "스피드 지수 최상(86.2초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1789,7 +1707,6 @@
         "jockey": "장추열",
         "trainer": "이강서",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.7",
         "g1f_time": "",
@@ -1797,49 +1714,50 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "14",
-        "ai_score": 58.8,
+        "distance": "1800",
+        "ai_score": 64.8,
         "ai_tags": [
-          "기록 우수"
+          "스피드 지수 최상(87.7초) 🏎️"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "7",
-        "name": "[부]에이스하이",
-        "jockey": "이현종",
-        "trainer": "하무선",
-        "weight": "55",
-        "distance": "1400",
+        "gate": "12",
+        "name": "[부]클리어리위너",
+        "jockey": "다실바",
+        "trainer": "구영준",
+        "weight": "53.5",
         "track": "양호",
-        "rc_time": "1:28.1",
+        "rc_time": "1:26.1",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "15",
-        "ai_score": 55.0,
+        "actual_ord": "4",
+        "distance": "1800",
+        "ai_score": 64.5,
         "ai_tags": [
-          "기록 우수"
+          "스피드 지수 최상(86.1초) 🏎️"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "16",
-        "name": "[부]여수슈퍼스타",
-        "jockey": "최은경",
-        "trainer": "이상영",
+        "gate": "2",
+        "name": "클럽큐",
+        "jockey": "김아현",
+        "trainer": "최영주",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
-        "rc_time": "1:25.5",
+        "rc_time": "1:26.6",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "3",
-        "ai_score": 55.0,
+        "actual_ord": "9",
+        "distance": "1800",
+        "ai_score": 62.0,
         "ai_tags": [
-          "스피드 지수 최상(85.5초) 🏎️"
+          "스피드 지수 최상(86.6초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1849,7 +1767,6 @@
         "jockey": "이용호",
         "trainer": "문병기",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:34.1",
         "g1f_time": "",
@@ -1857,8 +1774,71 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "16",
-        "ai_score": 49.0,
-        "ai_tags": [],
+        "distance": "1800",
+        "ai_score": 62.0,
+        "ai_tags": [
+          "스피드 지수 최상(94.1초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "5",
+        "name": "[부]즐거운여정",
+        "jockey": "진겸",
+        "trainer": "이상영",
+        "weight": "55",
+        "track": "양호",
+        "rc_time": "1:26.2",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "5",
+        "distance": "1800",
+        "ai_score": 59.0,
+        "ai_tags": [
+          "스피드 지수 최상(86.2초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "7",
+        "name": "[부]에이스하이",
+        "jockey": "이현종",
+        "trainer": "하무선",
+        "weight": "55",
+        "track": "양호",
+        "rc_time": "1:28.1",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "15",
+        "distance": "1800",
+        "ai_score": 59.0,
+        "ai_tags": [
+          "스피드 지수 최상(88.1초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "16",
+        "name": "[부]여수슈퍼스타",
+        "jockey": "최은경",
+        "trainer": "이상영",
+        "weight": "55",
+        "track": "양호",
+        "rc_time": "1:25.5",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "3",
+        "distance": "1800",
+        "ai_score": 56.0,
+        "ai_tags": [
+          "스피드 지수 최상(85.5초) 🏎️"
+        ],
         "odds_display": "-"
       }
     ]
@@ -1868,7 +1848,7 @@
     "meet_name": "서울",
     "race_no": "9",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1800",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -1878,7 +1858,6 @@
         "jockey": "임다빈",
         "trainer": "임채덕",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:54.9",
         "g1f_time": "",
@@ -1886,9 +1865,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 62.0,
+        "distance": "1800",
+        "ai_score": 77.5,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(114.9초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -1898,7 +1879,6 @@
         "jockey": "장추열",
         "trainer": "강성오",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:57.0",
         "g1f_time": "",
@@ -1906,49 +1886,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 61.7,
+        "distance": "1800",
+        "ai_score": 72.2,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "용비교",
-        "jockey": "이혁",
-        "trainer": "이신우",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "2:01.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "9",
-        "ai_score": 58.6,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "7",
-        "name": "퍼지스텝",
-        "jockey": "유승완",
-        "trainer": "안병기",
-        "weight": "55.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "-",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "-",
-        "ai_score": 57.5,
-        "ai_tags": [
-          "상위 기수"
+          "경량 부중(52.5kg) ⚡",
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -1958,7 +1900,6 @@
         "jockey": "이동하",
         "trainer": "송문길",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:58.7",
         "g1f_time": "",
@@ -1966,7 +1907,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 55.8,
+        "distance": "1800",
+        "ai_score": 64.3,
         "ai_tags": [
           "우수 마방 🏆",
           "경량 부중(52.5kg) ⚡"
@@ -1979,7 +1921,6 @@
         "jockey": "송재철",
         "trainer": "한만달",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:58.2",
         "g1f_time": "",
@@ -1987,7 +1928,68 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
-        "ai_score": 53.9,
+        "distance": "1800",
+        "ai_score": 62.4,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "용비교",
+        "jockey": "이혁",
+        "trainer": "이신우",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "2:01.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "9",
+        "distance": "1800",
+        "ai_score": 60.1,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "7",
+        "name": "퍼지스텝",
+        "jockey": "유승완",
+        "trainer": "안병기",
+        "weight": "55.5",
+        "track": "양호",
+        "rc_time": "-",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "-",
+        "distance": "1800",
+        "ai_score": 56.0,
+        "ai_tags": [
+          "상위 기수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "10",
+        "name": "블랙사탕",
+        "jockey": "정정희",
+        "trainer": "리카디",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:59.1",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "7",
+        "distance": "1800",
+        "ai_score": 54.8,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
         ],
@@ -1999,7 +2001,6 @@
         "jockey": "푸르칸",
         "trainer": "토니",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:10.9",
         "g1f_time": "",
@@ -2007,7 +2008,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
-        "ai_score": 52.8,
+        "distance": "1800",
+        "ai_score": 52.2,
         "ai_tags": [],
         "odds_display": "-"
       },
@@ -2017,7 +2019,6 @@
         "jockey": "최범현",
         "trainer": "박지헌",
         "weight": "55.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:57.6",
         "g1f_time": "",
@@ -2025,7 +2026,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 48.1,
+        "distance": "1800",
+        "ai_score": 51.6,
         "ai_tags": [],
         "odds_display": "-"
       },
@@ -2035,7 +2037,6 @@
         "jockey": "코지",
         "trainer": "최용건",
         "weight": "57.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:58.4",
         "g1f_time": "",
@@ -2043,7 +2044,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
-        "ai_score": 46.2,
+        "distance": "1800",
+        "ai_score": 46.8,
         "ai_tags": [],
         "odds_display": "-"
       },
@@ -2053,7 +2055,6 @@
         "jockey": "오수철",
         "trainer": "백종수",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:59.6",
         "g1f_time": "",
@@ -2061,28 +2062,9 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 46.2,
+        "distance": "1800",
+        "ai_score": 45.8,
         "ai_tags": [],
-        "odds_display": "-"
-      },
-      {
-        "gate": "10",
-        "name": "블랙사탕",
-        "jockey": "정정희",
-        "trainer": "리카디",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:59.1",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "7",
-        "ai_score": 46.2,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
-        ],
         "odds_display": "-"
       }
     ]
@@ -2092,37 +2074,16 @@
     "meet_name": "서울",
     "race_no": "10",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "2000",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
-      {
-        "gate": "3",
-        "name": "아르고리치",
-        "jockey": "서승운",
-        "trainer": "최용건",
-        "weight": "56.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "2:11.5",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 66.0,
-        "ai_tags": [
-          "특급 기수 🏇"
-        ],
-        "odds_display": "-"
-      },
       {
         "gate": "8",
         "name": "스톰브레이커",
         "jockey": "빅투아르",
         "trainer": "최용건",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:11.5",
         "g1f_time": "",
@@ -2130,9 +2091,32 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
-        "ai_score": 63.1,
+        "distance": "2000",
+        "ai_score": 78.1,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "스피드 지수 최상(131.5초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "3",
+        "name": "아르고리치",
+        "jockey": "서승운",
+        "trainer": "최용건",
+        "weight": "56.5",
+        "track": "양호",
+        "rc_time": "2:11.5",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "5",
+        "distance": "2000",
+        "ai_score": 77.5,
+        "ai_tags": [
+          "특급 기수 🏇",
+          "스피드 지수 최상(131.5초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2142,7 +2126,6 @@
         "jockey": "송재철",
         "trainer": "심승태",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:11.3",
         "g1f_time": "",
@@ -2150,9 +2133,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 60.1,
+        "distance": "2000",
+        "ai_score": 76.6,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(131.3초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2162,7 +2147,6 @@
         "jockey": "김철호",
         "trainer": "임채덕",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:12.7",
         "g1f_time": "",
@@ -2170,9 +2154,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 55.2,
+        "distance": "2000",
+        "ai_score": 65.8,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -2182,7 +2168,6 @@
         "jockey": "김정준",
         "trainer": "이신우",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:13.8",
         "g1f_time": "",
@@ -2190,7 +2175,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 55.2,
+        "distance": "2000",
+        "ai_score": 60.8,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
         ],
@@ -2202,7 +2188,6 @@
         "jockey": "권중석",
         "trainer": "성상현",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:12.3",
         "g1f_time": "",
@@ -2210,8 +2195,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 49.0,
-        "ai_tags": [],
+        "distance": "2000",
+        "ai_score": 57.0,
+        "ai_tags": [
+          "기록 우수"
+        ],
         "odds_display": "-"
       },
       {
@@ -2220,7 +2208,6 @@
         "jockey": "장추열",
         "trainer": "이준철",
         "weight": "58",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:11.1",
         "g1f_time": "",
@@ -2228,8 +2215,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 43.9,
-        "ai_tags": [],
+        "distance": "2000",
+        "ai_score": 54.9,
+        "ai_tags": [
+          "스피드 지수 최상(131.1초) 🏎️"
+        ],
         "odds_display": "-"
       },
       {
@@ -2238,7 +2228,6 @@
         "jockey": "오수철",
         "trainer": "임채덕",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:12.6",
         "g1f_time": "",
@@ -2246,8 +2235,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 42.5,
-        "ai_tags": [],
+        "distance": "2000",
+        "ai_score": 54.5,
+        "ai_tags": [
+          "기록 우수"
+        ],
         "odds_display": "-"
       },
       {
@@ -2256,7 +2248,6 @@
         "jockey": "푸르칸",
         "trainer": "강환민",
         "weight": "58",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "2:11.1",
         "g1f_time": "",
@@ -2264,8 +2255,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 37.5,
-        "ai_tags": [],
+        "distance": "2000",
+        "ai_score": 48.5,
+        "ai_tags": [
+          "스피드 지수 최상(131.1초) 🏎️"
+        ],
         "odds_display": "-"
       }
     ]
@@ -2275,59 +2269,16 @@
     "meet_name": "서울",
     "race_no": "11",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1200",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
-      {
-        "gate": "1",
-        "name": "글로벌하트",
-        "jockey": "임다빈",
-        "trainer": "전승규",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:15.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "7",
-        "ai_score": 79.0,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(75.4초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "6",
-        "name": "원평크라운",
-        "jockey": "권중석",
-        "trainer": "정호익",
-        "weight": "51",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:16.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "10",
-        "ai_score": 73.8,
-        "ai_tags": [
-          "경량 부중(51.0kg) ⚡",
-          "스피드 지수 최상(76.6초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
       {
         "gate": "3",
         "name": "팬텀프린스",
         "jockey": "장추열",
         "trainer": "성상현",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.7",
         "g1f_time": "",
@@ -2335,52 +2286,32 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 72.9,
+        "distance": "1200",
+        "ai_score": 77.9,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(73.7초) 🏎️"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "5",
-        "name": "마이티세이버",
-        "jockey": "안드레",
-        "trainer": "서홍수",
+        "gate": "1",
+        "name": "글로벌하트",
+        "jockey": "임다빈",
+        "trainer": "전승규",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
-        "rc_time": "1:15.1",
+        "rc_time": "1:15.4",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 72.5,
+        "actual_ord": "7",
+        "distance": "1200",
+        "ai_score": 74.0,
         "ai_tags": [
-          "우수 마방 🏆",
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(75.1초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "이스트라코타",
-        "jockey": "김효정",
-        "trainer": "박재우",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:15.2",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "6",
-        "ai_score": 70.5,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(75.2초) 🏎️"
+          "단거리 황금게이트 ⚡",
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       },
@@ -2390,7 +2321,6 @@
         "jockey": "김태훈",
         "trainer": "박병일",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:15.1",
         "g1f_time": "",
@@ -2398,51 +2328,52 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
-        "ai_score": 70.2,
+        "distance": "1200",
+        "ai_score": 65.2,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(75.1초) 🏎️"
+          "단거리 황금게이트 ⚡",
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "4",
-        "name": "문학루퍼",
-        "jockey": "정정희",
-        "trainer": "안병기",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:16.3",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "9",
-        "ai_score": 70.2,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(76.3초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "10",
-        "name": "이끌림",
-        "jockey": "이혁",
+        "gate": "6",
+        "name": "원평크라운",
+        "jockey": "권중석",
         "trainer": "정호익",
-        "weight": "55",
-        "distance": "1400",
+        "weight": "51",
         "track": "양호",
-        "rc_time": "1:14.3",
+        "rc_time": "1:16.6",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "2",
-        "ai_score": 66.1,
+        "actual_ord": "10",
+        "distance": "1200",
+        "ai_score": 64.8,
         "ai_tags": [
-          "스피드 지수 최상(74.3초) 🏎️"
+          "경량 부중(51.0kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "5",
+        "name": "마이티세이버",
+        "jockey": "안드레",
+        "trainer": "서홍수",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:15.1",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "4",
+        "distance": "1200",
+        "ai_score": 63.5,
+        "ai_tags": [
+          "우수 마방 🏆",
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       },
@@ -2452,7 +2383,6 @@
         "jockey": "김용근",
         "trainer": "박병일",
         "weight": "57.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:14.6",
         "g1f_time": "",
@@ -2460,10 +2390,71 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 65.3,
+        "distance": "1200",
+        "ai_score": 61.4,
         "ai_tags": [
           "상위 기수",
-          "스피드 지수 최상(74.6초) 🏎️"
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "4",
+        "name": "문학루퍼",
+        "jockey": "정정희",
+        "trainer": "안병기",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:16.3",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "9",
+        "distance": "1200",
+        "ai_score": 57.2,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "10",
+        "name": "이끌림",
+        "jockey": "이혁",
+        "trainer": "정호익",
+        "weight": "55",
+        "track": "양호",
+        "rc_time": "1:14.3",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "2",
+        "distance": "1200",
+        "ai_score": 56.1,
+        "ai_tags": [
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "이스트라코타",
+        "jockey": "김효정",
+        "trainer": "박재우",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:15.2",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "6",
+        "distance": "1200",
+        "ai_score": 50.5,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       },
@@ -2473,7 +2464,6 @@
         "jockey": "우인철",
         "trainer": "강환민",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:16.1",
         "g1f_time": "",
@@ -2481,10 +2471,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 65.0,
+        "distance": "1200",
+        "ai_score": 50.0,
         "ai_tags": [
-          "경량 부중(51.0kg) ⚡",
-          "스피드 지수 최상(76.1초) 🏎️"
+          "경량 부중(51.0kg) ⚡"
         ],
         "odds_display": "-"
       },
@@ -2494,7 +2484,6 @@
         "jockey": "김정준",
         "trainer": "심승태",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "-",
         "g1f_time": "",
@@ -2502,7 +2491,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "-",
-        "ai_score": 52.5,
+        "distance": "1200",
+        "ai_score": 47.5,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡"
         ],
@@ -2525,7 +2515,6 @@
         "jockey": "최시대",
         "trainer": "민장기",
         "weight": "53",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.9",
         "g1f_time": "",
@@ -2533,6 +2522,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
+        "distance": "1400",
         "ai_score": 78.5,
         "ai_tags": [
           "특급 기수 🏇",
@@ -2547,7 +2537,6 @@
         "jockey": "김어수",
         "trainer": "김도현",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.0",
         "g1f_time": "",
@@ -2555,6 +2544,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
+        "distance": "1400",
         "ai_score": 77.0,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
@@ -2568,7 +2558,6 @@
         "jockey": "다비드",
         "trainer": "라이스",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.9",
         "g1f_time": "",
@@ -2576,6 +2565,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
+        "distance": "1400",
         "ai_score": 76.7,
         "ai_tags": [
           "상위 기수",
@@ -2590,7 +2580,6 @@
         "jockey": "다나카",
         "trainer": "구영준",
         "weight": "57",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.4",
         "g1f_time": "",
@@ -2598,6 +2587,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
+        "distance": "1400",
         "ai_score": 74.6,
         "ai_tags": [
           "특급 기수 🏇",
@@ -2611,7 +2601,6 @@
         "jockey": "송경윤",
         "trainer": "강은석",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.3",
         "g1f_time": "",
@@ -2619,6 +2608,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
+        "distance": "1400",
         "ai_score": 68.4,
         "ai_tags": [
           "스피드 지수 최상(87.3초) 🏎️"
@@ -2631,7 +2621,6 @@
         "jockey": "손경민",
         "trainer": "이정표",
         "weight": "53",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.5",
         "g1f_time": "",
@@ -2639,6 +2628,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
+        "distance": "1400",
         "ai_score": 68.2,
         "ai_tags": [
           "스피드 지수 최상(85.5초) 🏎️"
@@ -2651,7 +2641,6 @@
         "jockey": "이성재",
         "trainer": "안우성",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.3",
         "g1f_time": "",
@@ -2659,6 +2648,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
+        "distance": "1400",
         "ai_score": 68.2,
         "ai_tags": [
           "스피드 지수 최상(86.3초) 🏎️"
@@ -2671,7 +2661,6 @@
         "jockey": "신윤섭",
         "trainer": "박재호",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.6",
         "g1f_time": "",
@@ -2679,6 +2668,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
+        "distance": "1400",
         "ai_score": 65.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
@@ -2692,7 +2682,6 @@
         "jockey": "윤형석",
         "trainer": "강은석",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.3",
         "g1f_time": "",
@@ -2700,6 +2689,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
+        "distance": "1400",
         "ai_score": 63.0,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
@@ -2713,7 +2703,6 @@
         "jockey": "서강주",
         "trainer": "임성실",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:28.3",
         "g1f_time": "",
@@ -2721,6 +2710,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "11",
+        "distance": "1400",
         "ai_score": 59.2,
         "ai_tags": [
           "기록 우수"
@@ -2733,7 +2723,6 @@
         "jockey": "전진구",
         "trainer": "조용배",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.7",
         "g1f_time": "",
@@ -2741,6 +2730,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
+        "distance": "1400",
         "ai_score": 57.1,
         "ai_tags": [
           "기록 우수"
@@ -2754,7 +2744,7 @@
     "meet_name": "영천",
     "race_no": "2",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1600",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -2764,7 +2754,6 @@
         "jockey": "다비드",
         "trainer": "라이스",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:40.8",
         "g1f_time": "",
@@ -2772,11 +2761,13 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 77.0,
+        "distance": "1600",
+        "ai_score": 92.0,
         "ai_tags": [
           "상위 기수",
           "우수 마방 🏆",
-          "경량 부중(51.0kg) ⚡"
+          "경량 부중(51.0kg) ⚡",
+          "스피드 지수 최상(100.8초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2786,7 +2777,6 @@
         "jockey": "최시대",
         "trainer": "양영남",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:41.5",
         "g1f_time": "",
@@ -2794,10 +2784,12 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 64.7,
+        "distance": "1600",
+        "ai_score": 79.7,
         "ai_tags": [
           "특급 기수 🏇",
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(101.5초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2807,7 +2799,6 @@
         "jockey": "김동영",
         "trainer": "김혜선",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:40.9",
         "g1f_time": "",
@@ -2815,9 +2806,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 61.5,
+        "distance": "1600",
+        "ai_score": 76.5,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(100.9초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2827,7 +2820,6 @@
         "jockey": "손경민",
         "trainer": "백광열",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:39.2",
         "g1f_time": "",
@@ -2835,8 +2827,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 58.1,
-        "ai_tags": [],
+        "distance": "1600",
+        "ai_score": 73.1,
+        "ai_tags": [
+          "스피드 지수 최상(99.2초) 🏎️"
+        ],
         "odds_display": "-"
       },
       {
@@ -2845,7 +2840,6 @@
         "jockey": "전진구",
         "trainer": "유현명",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:40.9",
         "g1f_time": "",
@@ -2853,9 +2847,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 55.1,
+        "distance": "1600",
+        "ai_score": 70.1,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(100.9초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2865,7 +2861,6 @@
         "jockey": "다나카",
         "trainer": "윤영훈",
         "weight": "56.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:40.1",
         "g1f_time": "",
@@ -2873,9 +2868,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
-        "ai_score": 53.6,
+        "distance": "1600",
+        "ai_score": 68.6,
         "ai_tags": [
-          "특급 기수 🏇"
+          "특급 기수 🏇",
+          "스피드 지수 최상(100.1초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2885,7 +2882,6 @@
         "jockey": "남정혁",
         "trainer": "안우성",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:39.9",
         "g1f_time": "",
@@ -2893,8 +2889,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 53.2,
-        "ai_tags": [],
+        "distance": "1600",
+        "ai_score": 68.2,
+        "ai_tags": [
+          "스피드 지수 최상(99.9초) 🏎️"
+        ],
         "odds_display": "-"
       },
       {
@@ -2903,7 +2902,6 @@
         "jockey": "서강주",
         "trainer": "유현명",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:40.0",
         "g1f_time": "",
@@ -2911,9 +2909,32 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 51.2,
+        "distance": "1600",
+        "ai_score": 66.2,
         "ai_tags": [
-          "경량 부중(52.5kg) ⚡"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(100.0초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "10",
+        "name": "[부]나인티플러스",
+        "jockey": "이성재",
+        "trainer": "라이스",
+        "weight": "56.5",
+        "track": "양호",
+        "rc_time": "1:40.0",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "4",
+        "distance": "1600",
+        "ai_score": 63.1,
+        "ai_tags": [
+          "우수 마방 🏆",
+          "스피드 지수 최상(100.0초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -2923,7 +2944,6 @@
         "jockey": "송경윤",
         "trainer": "김혜선",
         "weight": "53",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:43.9",
         "g1f_time": "",
@@ -2931,28 +2951,9 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
-        "ai_score": 49.2,
+        "distance": "1600",
+        "ai_score": 54.2,
         "ai_tags": [],
-        "odds_display": "-"
-      },
-      {
-        "gate": "10",
-        "name": "[부]나인티플러스",
-        "jockey": "이성재",
-        "trainer": "라이스",
-        "weight": "56.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:40.0",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "4",
-        "ai_score": 48.1,
-        "ai_tags": [
-          "우수 마방 🏆"
-        ],
         "odds_display": "-"
       }
     ]
@@ -2962,7 +2963,7 @@
     "meet_name": "영천",
     "race_no": "3",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1200",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -2972,7 +2973,6 @@
         "jockey": "다비드",
         "trainer": "구영준",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.9",
         "g1f_time": "",
@@ -2980,55 +2980,13 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 84.9,
+        "distance": "1200",
+        "ai_score": 89.9,
         "ai_tags": [
           "상위 기수",
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(72.9초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "5",
-        "name": "[부]하늘폭풍",
-        "jockey": "다나카",
-        "trainer": "김도현",
-        "weight": "52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:14.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "10",
-        "ai_score": 81.7,
-        "ai_tags": [
-          "특급 기수 🏇",
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(74.4초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "7",
-        "name": "[부]파워풀선더",
-        "jockey": "최시대",
-        "trainer": "구민성",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:14.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "11",
-        "ai_score": 79.7,
-        "ai_tags": [
-          "특급 기수 🏇",
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(74.4초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3038,7 +2996,6 @@
         "jockey": "유광희",
         "trainer": "민장기",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.7",
         "g1f_time": "",
@@ -3046,11 +3003,57 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 75.3,
+        "distance": "1200",
+        "ai_score": 80.3,
         "ai_tags": [
           "우수 마방 🏆",
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(73.7초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "5",
+        "name": "[부]하늘폭풍",
+        "jockey": "다나카",
+        "trainer": "김도현",
+        "weight": "52.5",
+        "track": "양호",
+        "rc_time": "1:14.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "10",
+        "distance": "1200",
+        "ai_score": 77.7,
+        "ai_tags": [
+          "특급 기수 🏇",
+          "경량 부중(52.5kg) ⚡",
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "7",
+        "name": "[부]파워풀선더",
+        "jockey": "최시대",
+        "trainer": "구민성",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:14.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "11",
+        "distance": "1200",
+        "ai_score": 75.7,
+        "ai_tags": [
+          "특급 기수 🏇",
+          "경량 부중(52.5kg) ⚡",
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -3060,7 +3063,6 @@
         "jockey": "서강주",
         "trainer": "권승주",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.7",
         "g1f_time": "",
@@ -3068,51 +3070,12 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 70.2,
+        "distance": "1200",
+        "ai_score": 75.2,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(72.7초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "11",
-        "name": "[부]데메테르",
-        "jockey": "이성재",
-        "trainer": "임성실",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:13.9",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "8",
-        "ai_score": 69.2,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(73.9초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "4",
-        "name": "[부]압도적넘버원",
-        "jockey": "김어수",
-        "trainer": "손병직",
-        "weight": "55",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:13.6",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 67.6,
-        "ai_tags": [
-          "스피드 지수 최상(73.6초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3122,7 +3085,6 @@
         "jockey": "신윤섭",
         "trainer": "문현철",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.4",
         "g1f_time": "",
@@ -3130,10 +3092,52 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 66.2,
+        "distance": "1200",
+        "ai_score": 67.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(73.4초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "4",
+        "name": "[부]압도적넘버원",
+        "jockey": "김어수",
+        "trainer": "손병직",
+        "weight": "55",
+        "track": "양호",
+        "rc_time": "1:13.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "5",
+        "distance": "1200",
+        "ai_score": 64.6,
+        "ai_tags": [
+          "스피드 지수 최상(73.6초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "11",
+        "name": "[부]데메테르",
+        "jockey": "이성재",
+        "trainer": "임성실",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:13.9",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "8",
+        "distance": "1200",
+        "ai_score": 59.2,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡",
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -3143,7 +3147,6 @@
         "jockey": "손경민",
         "trainer": "김혜선",
         "weight": "54",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.5",
         "g1f_time": "",
@@ -3151,7 +3154,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
-        "ai_score": 65.7,
+        "distance": "1200",
+        "ai_score": 55.7,
         "ai_tags": [
           "스피드 지수 최상(73.5초) 🏎️"
         ],
@@ -3163,7 +3167,6 @@
         "jockey": "남정혁",
         "trainer": "이정표",
         "weight": "52",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.9",
         "g1f_time": "",
@@ -3171,10 +3174,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
-        "ai_score": 62.5,
+        "distance": "1200",
+        "ai_score": 52.5,
         "ai_tags": [
           "경량 부중(52.0kg) ⚡",
-          "스피드 지수 최상(73.9초) 🏎️"
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -3184,7 +3188,6 @@
         "jockey": "윤형석",
         "trainer": "조용배",
         "weight": "53",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:14.0",
         "g1f_time": "",
@@ -3192,9 +3195,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 60.8,
+        "distance": "1200",
+        "ai_score": 50.8,
         "ai_tags": [
-          "스피드 지수 최상(74.0초) 🏎️"
+          "기록 우수"
         ],
         "odds_display": "-"
       }
@@ -3215,7 +3219,6 @@
         "jockey": "최시대",
         "trainer": "김도현",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.9",
         "g1f_time": "",
@@ -3223,6 +3226,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
+        "distance": "1400",
         "ai_score": 84.3,
         "ai_tags": [
           "특급 기수 🏇",
@@ -3236,7 +3240,6 @@
         "jockey": "송경윤",
         "trainer": "구영준",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.7",
         "g1f_time": "",
@@ -3244,6 +3247,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
+        "distance": "1400",
         "ai_score": 77.7,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
@@ -3257,7 +3261,6 @@
         "jockey": "손경민",
         "trainer": "김도현",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.4",
         "g1f_time": "",
@@ -3265,6 +3268,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
+        "distance": "1400",
         "ai_score": 76.3,
         "ai_tags": [
           "경량 부중(51.0kg) ⚡",
@@ -3278,7 +3282,6 @@
         "jockey": "이성재",
         "trainer": "라이스",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.9",
         "g1f_time": "",
@@ -3286,6 +3289,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "7",
+        "distance": "1400",
         "ai_score": 75.8,
         "ai_tags": [
           "우수 마방 🏆",
@@ -3299,7 +3303,6 @@
         "jockey": "다비드",
         "trainer": "라이스",
         "weight": "57.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:24.5",
         "g1f_time": "",
@@ -3307,6 +3310,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
+        "distance": "1400",
         "ai_score": 75.7,
         "ai_tags": [
           "상위 기수",
@@ -3321,7 +3325,6 @@
         "jockey": "김동영",
         "trainer": "양영남",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.6",
         "g1f_time": "",
@@ -3329,6 +3332,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
+        "distance": "1400",
         "ai_score": 72.5,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
@@ -3342,7 +3346,6 @@
         "jockey": "윤형석",
         "trainer": "윤영훈",
         "weight": "52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:27.0",
         "g1f_time": "",
@@ -3350,6 +3353,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "11",
+        "distance": "1400",
         "ai_score": 66.2,
         "ai_tags": [
           "경량 부중(52.5kg) ⚡",
@@ -3363,7 +3367,6 @@
         "jockey": "남정혁",
         "trainer": "조용배",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:26.5",
         "g1f_time": "",
@@ -3371,6 +3374,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
+        "distance": "1400",
         "ai_score": 65.8,
         "ai_tags": [
           "경량 부중(51.0kg) ⚡",
@@ -3384,7 +3388,6 @@
         "jockey": "다나카",
         "trainer": "강형곤",
         "weight": "56.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:24.2",
         "g1f_time": "",
@@ -3392,6 +3395,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
+        "distance": "1400",
         "ai_score": 63.6,
         "ai_tags": [
           "특급 기수 🏇",
@@ -3405,7 +3409,6 @@
         "jockey": "김어수",
         "trainer": "조용배",
         "weight": "55.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.7",
         "g1f_time": "",
@@ -3413,6 +3416,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
+        "distance": "1400",
         "ai_score": 63.1,
         "ai_tags": [
           "스피드 지수 최상(85.7초) 🏎️"
@@ -3425,7 +3429,6 @@
         "jockey": "전진구",
         "trainer": "손병철",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:25.8",
         "g1f_time": "",
@@ -3433,6 +3436,7 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
+        "distance": "1400",
         "ai_score": 58.8,
         "ai_tags": [
           "스피드 지수 최상(85.8초) 🏎️"
@@ -3446,39 +3450,16 @@
     "meet_name": "영천",
     "race_no": "5",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1200",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
-      {
-        "gate": "4",
-        "name": "[부]절대보스",
-        "jockey": "이성재",
-        "trainer": "민장기",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:13.8",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "6",
-        "ai_score": 80.5,
-        "ai_tags": [
-          "우수 마방 🏆",
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(73.8초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
       {
         "gate": "1",
         "name": "[부]희망라니",
         "jockey": "김동영",
         "trainer": "임성실",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.8",
         "g1f_time": "",
@@ -3486,9 +3467,33 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "1",
-        "ai_score": 73.0,
+        "distance": "1200",
+        "ai_score": 78.0,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(72.8초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "4",
+        "name": "[부]절대보스",
+        "jockey": "이성재",
+        "trainer": "민장기",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:13.8",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "6",
+        "distance": "1200",
+        "ai_score": 77.5,
+        "ai_tags": [
+          "우수 마방 🏆",
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(73.8초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3498,7 +3503,6 @@
         "jockey": "김어수",
         "trainer": "유현명",
         "weight": "53.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.9",
         "g1f_time": "",
@@ -3506,8 +3510,10 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 71.3,
+        "distance": "1200",
+        "ai_score": 76.3,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(72.9초) 🏎️"
         ],
         "odds_display": "-"
@@ -3518,7 +3524,6 @@
         "jockey": "윤형석",
         "trainer": "조용배",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:14.2",
         "g1f_time": "",
@@ -3526,52 +3531,12 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "10",
+        "distance": "1200",
         "ai_score": 71.0,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(74.2초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "11",
-        "name": "[부]벌마의영웅",
-        "jockey": "최시대",
-        "trainer": "양영남",
-        "weight": "54",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:13.9",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "7",
-        "ai_score": 70.9,
-        "ai_tags": [
-          "특급 기수 🏇",
-          "스피드 지수 최상(73.9초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "8",
-        "name": "[부]앙코르",
-        "jockey": "송경윤",
-        "trainer": "최기홍",
-        "weight": "52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:14.0",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "8",
-        "ai_score": 70.4,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(74.0초) 🏎️"
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -3581,7 +3546,6 @@
         "jockey": "남정혁",
         "trainer": "토마스",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.3",
         "g1f_time": "",
@@ -3589,52 +3553,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 70.0,
+        "distance": "1200",
+        "ai_score": 71.0,
         "ai_tags": [
           "경량 부중(51.0kg) ⚡",
           "스피드 지수 최상(73.3초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "9",
-        "name": "[부]윈윈",
-        "jockey": "서강주",
-        "trainer": "김도현",
-        "weight": "*52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:16.0",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "11",
-        "ai_score": 64.3,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(76.0초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "10",
-        "name": "[부]벌교왕초",
-        "jockey": "다비드",
-        "trainer": "방동석",
-        "weight": "56",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:13.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "5",
-        "ai_score": 63.9,
-        "ai_tags": [
-          "상위 기수",
-          "스피드 지수 최상(73.4초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3644,7 +3567,6 @@
         "jockey": "전진구",
         "trainer": "유현명",
         "weight": "55",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.3",
         "g1f_time": "",
@@ -3652,9 +3574,73 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
-        "ai_score": 63.8,
+        "distance": "1200",
+        "ai_score": 64.8,
         "ai_tags": [
           "스피드 지수 최상(73.3초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "11",
+        "name": "[부]벌마의영웅",
+        "jockey": "최시대",
+        "trainer": "양영남",
+        "weight": "54",
+        "track": "양호",
+        "rc_time": "1:13.9",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "7",
+        "distance": "1200",
+        "ai_score": 60.9,
+        "ai_tags": [
+          "특급 기수 🏇",
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "10",
+        "name": "[부]벌교왕초",
+        "jockey": "다비드",
+        "trainer": "방동석",
+        "weight": "56",
+        "track": "양호",
+        "rc_time": "1:13.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "5",
+        "distance": "1200",
+        "ai_score": 58.9,
+        "ai_tags": [
+          "상위 기수",
+          "스피드 지수 최상(73.4초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "[부]앙코르",
+        "jockey": "송경윤",
+        "trainer": "최기홍",
+        "weight": "52.5",
+        "track": "양호",
+        "rc_time": "1:14.0",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "8",
+        "distance": "1200",
+        "ai_score": 55.4,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡",
+          "기록 우수"
         ],
         "odds_display": "-"
       },
@@ -3664,7 +3650,6 @@
         "jockey": "김성현",
         "trainer": "방동석",
         "weight": "56.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:14.0",
         "g1f_time": "",
@@ -3672,9 +3657,30 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 56.2,
+        "distance": "1200",
+        "ai_score": 52.2,
         "ai_tags": [
-          "스피드 지수 최상(74.0초) 🏎️"
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "9",
+        "name": "[부]윈윈",
+        "jockey": "서강주",
+        "trainer": "김도현",
+        "weight": "*52.5",
+        "track": "양호",
+        "rc_time": "1:16.0",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "11",
+        "distance": "1200",
+        "ai_score": 49.4,
+        "ai_tags": [
+          "경량 부중(52.5kg) ⚡"
         ],
         "odds_display": "-"
       }
@@ -3685,7 +3691,7 @@
     "meet_name": "영천",
     "race_no": "6",
     "race_date": "20260920",
-    "distance": "1400",
+    "distance": "1200",
     "track": "양호",
     "version": "KRA전국 승부예상AI_V4.0",
     "horses": [
@@ -3695,7 +3701,6 @@
         "jockey": "이성재",
         "trainer": "라이스",
         "weight": "*52.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:11.9",
         "g1f_time": "",
@@ -3703,9 +3708,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "3",
-        "ai_score": 82.1,
+        "distance": "1200",
+        "ai_score": 87.1,
         "ai_tags": [
           "우수 마방 🏆",
+          "단거리 황금게이트 ⚡",
           "경량 부중(52.5kg) ⚡",
           "스피드 지수 최상(71.9초) 🏎️"
         ],
@@ -3717,7 +3724,6 @@
         "jockey": "다비드",
         "trainer": "강은석",
         "weight": "54.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:11.6",
         "g1f_time": "",
@@ -3725,9 +3731,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "2",
-        "ai_score": 78.4,
+        "distance": "1200",
+        "ai_score": 83.4,
         "ai_tags": [
           "상위 기수",
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(71.6초) 🏎️"
         ],
         "odds_display": "-"
@@ -3738,7 +3746,6 @@
         "jockey": "최시대",
         "trainer": "임성실",
         "weight": "56",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:13.5",
         "g1f_time": "",
@@ -3746,7 +3753,8 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "9",
-        "ai_score": 73.7,
+        "distance": "1200",
+        "ai_score": 74.7,
         "ai_tags": [
           "특급 기수 🏇",
           "스피드 지수 최상(73.5초) 🏎️"
@@ -3759,7 +3767,6 @@
         "jockey": "손경민",
         "trainer": "이정표",
         "weight": "51",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.3",
         "g1f_time": "",
@@ -3767,31 +3774,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "6",
-        "ai_score": 73.2,
+        "distance": "1200",
+        "ai_score": 74.2,
         "ai_tags": [
           "경량 부중(51.0kg) ⚡",
           "스피드 지수 최상(72.3초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "4",
-        "name": "[부]월드리스트캣",
-        "jockey": "김성현",
-        "trainer": "방동석",
-        "weight": "52.5",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:12.5",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "7",
-        "ai_score": 70.2,
-        "ai_tags": [
-          "경량 부중(52.5kg) ⚡",
-          "스피드 지수 최상(72.5초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3801,7 +3788,6 @@
         "jockey": "윤형석",
         "trainer": "백광열",
         "weight": "55.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.2",
         "g1f_time": "",
@@ -3809,29 +3795,32 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "5",
-        "ai_score": 66.2,
+        "distance": "1200",
+        "ai_score": 71.2,
         "ai_tags": [
+          "단거리 황금게이트 ⚡",
           "스피드 지수 최상(72.2초) 🏎️"
         ],
         "odds_display": "-"
       },
       {
-        "gate": "8",
-        "name": "[부]용비패왕",
-        "jockey": "서강주",
-        "trainer": "김도현",
-        "weight": "54",
-        "distance": "1400",
+        "gate": "4",
+        "name": "[부]월드리스트캣",
+        "jockey": "김성현",
+        "trainer": "방동석",
+        "weight": "52.5",
         "track": "양호",
-        "rc_time": "1:11.6",
+        "rc_time": "1:12.5",
         "g1f_time": "",
         "win_odds": "0",
         "pre_ord": "",
         "is_front": false,
-        "actual_ord": "1",
-        "ai_score": 65.6,
+        "actual_ord": "7",
+        "distance": "1200",
+        "ai_score": 67.2,
         "ai_tags": [
-          "스피드 지수 최상(71.6초) 🏎️"
+          "경량 부중(52.5kg) ⚡",
+          "스피드 지수 최상(72.5초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3841,7 +3830,6 @@
         "jockey": "다나카",
         "trainer": "문현철",
         "weight": "56.5",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.6",
         "g1f_time": "",
@@ -3849,50 +3837,11 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "8",
-        "ai_score": 63.6,
+        "distance": "1200",
+        "ai_score": 58.6,
         "ai_tags": [
           "특급 기수 🏇",
           "스피드 지수 최상(72.6초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "11",
-        "name": "[부]희망가람",
-        "jockey": "남정혁",
-        "trainer": "구영준",
-        "weight": "53",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:13.9",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "10",
-        "ai_score": 63.2,
-        "ai_tags": [
-          "스피드 지수 최상(73.9초) 🏎️"
-        ],
-        "odds_display": "-"
-      },
-      {
-        "gate": "9",
-        "name": "[부]골든에어",
-        "jockey": "신윤섭",
-        "trainer": "최기홍",
-        "weight": "53",
-        "distance": "1400",
-        "track": "양호",
-        "rc_time": "1:24.4",
-        "g1f_time": "",
-        "win_odds": "0",
-        "pre_ord": "",
-        "is_front": false,
-        "actual_ord": "11",
-        "ai_score": 60.0,
-        "ai_tags": [
-          "스피드 지수 최상(84.4초) 🏎️"
         ],
         "odds_display": "-"
       },
@@ -3902,7 +3851,6 @@
         "jockey": "전진구",
         "trainer": "이상영",
         "weight": "58",
-        "distance": "1400",
         "track": "양호",
         "rc_time": "1:12.0",
         "g1f_time": "",
@@ -3910,10 +3858,69 @@
         "pre_ord": "",
         "is_front": false,
         "actual_ord": "4",
-        "ai_score": 56.3,
+        "distance": "1200",
+        "ai_score": 57.3,
         "ai_tags": [
           "스피드 지수 최상(72.0초) 🏎️"
         ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "8",
+        "name": "[부]용비패왕",
+        "jockey": "서강주",
+        "trainer": "김도현",
+        "weight": "54",
+        "track": "양호",
+        "rc_time": "1:11.6",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "1",
+        "distance": "1200",
+        "ai_score": 55.6,
+        "ai_tags": [
+          "스피드 지수 최상(71.6초) 🏎️"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "11",
+        "name": "[부]희망가람",
+        "jockey": "남정혁",
+        "trainer": "구영준",
+        "weight": "53",
+        "track": "양호",
+        "rc_time": "1:13.9",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "10",
+        "distance": "1200",
+        "ai_score": 53.2,
+        "ai_tags": [
+          "기록 우수"
+        ],
+        "odds_display": "-"
+      },
+      {
+        "gate": "9",
+        "name": "[부]골든에어",
+        "jockey": "신윤섭",
+        "trainer": "최기홍",
+        "weight": "53",
+        "track": "양호",
+        "rc_time": "1:24.4",
+        "g1f_time": "",
+        "win_odds": "0",
+        "pre_ord": "",
+        "is_front": false,
+        "actual_ord": "11",
+        "distance": "1200",
+        "ai_score": 40.0,
+        "ai_tags": [],
         "odds_display": "-"
       }
     ]
