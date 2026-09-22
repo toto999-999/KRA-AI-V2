@@ -8,9 +8,6 @@
         * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo', sans-serif; }
         body { background-color: #f4f6f9; color: #333; padding-bottom: 40px; }
         
-        /* ======================================================== */
-        /* 🔒 비밀번호 잠금 화면 스타일 */
-        /* ======================================================== */
         #lockScreen {
             position: fixed; top: 0; left: 0; width: 100%; height: 100%;
             background: linear-gradient(135deg, #1e3c72, #2a5298);
@@ -39,9 +36,6 @@
         .pin-btn:active { background: #152b52; }
         .pin-err { color: #e63946; font-size: 0.8rem; font-weight: bold; margin-top: 10px; display: none; }
 
-        /* ======================================================== */
-        /* 메인 콘텐츠 스타일 (기존 UI 100% 유지) */
-        /* ======================================================== */
         #mainApp { display: none; }
         header { background: linear-gradient(135deg, #1e3c72, #2a5298); color: white; padding: 14px 16px; position: sticky; top: 0; z-index: 100; box-shadow: 0 2px 6px rgba(0,0,0,0.1); }
         .header-top { display: flex; justify-content: space-between; align-items: center; }
@@ -129,9 +123,6 @@
 </head>
 <body>
 
-    <!-- ======================================================== -->
-    <!-- 🔒 4자리 PIN 비밀번호 잠금 화면 -->
-    <!-- ======================================================== -->
     <div id="lockScreen">
         <div class="lock-box">
             <div class="lock-icon">🔐</div>
@@ -143,9 +134,6 @@
         </div>
     </div>
 
-    <!-- ======================================================== -->
-    <!-- 🐎 메인 앱 화면 (비밀번호 맞출 때만 표시) -->
-    <!-- ======================================================== -->
     <div id="mainApp">
         <header>
             <div class="header-top">
@@ -206,28 +194,32 @@
             <!-- [탭 2] 뱃지 도감 -->
             <div id="tab-badges" class="tab-content">
                 <div class="guide-card">
-                    <div class="guide-title">🏷️ AI 핵심 뱃지 총람 (13종)</div>
-                    <div class="guide-text">AI가 경주마의 주파기록, 기수, 조교사, 배당률, 전개를 분석하여 실시간으로 부착하는 스마트 뱃지입니다.</div>
+                    <div class="guide-title">🏷️ AI 핵심 뱃지 총람 (듀얼 스피드 모델)</div>
+                    <div class="guide-text">AI가 경주마의 주파기록(경기전 과거기록 / 경기후 완주기록), 기수, 조교사, 배당률을 정밀 분석하여 부착하는 뱃지입니다.</div>
                     
                     <table class="badge-table">
                         <thead>
                             <tr>
                                 <th style="width:40%;">뱃지 명칭</th>
-                                <th>부여 조건 및 의미</th>
+                                <th>부여 시점 및 상세 조건</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td><span class="ai-tag gold-tag">스피드 지수 최상 🏎️</span></td>
-                                <td>거리 기준 평균 타임보다 1초 이상 빠른 최상급 준족마</td>
+                                <td><span class="ai-tag gold-tag">과거 스피드 최상 🏎️</span></td>
+                                <td><strong>[경기 전 아침]</strong> 출마표의 과거 통산 최고기록이 기준보다 1초 이상 빠른 말</td>
                             </tr>
                             <tr>
-                                <td><span class="ai-tag">기록 우수</span></td>
-                                <td>평균 주파기록보다 양호한 안정적 기록 보유</td>
+                                <td><span class="ai-tag gold-tag">스피드 지수 최상 🏎️</span></td>
+                                <td><strong>[경기 후 복기]</strong> 오늘 실제 결승선을 기준보다 1초 이상 빠르게 통과한 우승마</td>
+                            </tr>
+                            <tr>
+                                <td><span class="ai-tag">능력평점 최상(Rating)</span></td>
+                                <td><strong>[경기 전 아침]</strong> 마사회 공식 능력 평점(R65 이상) 검증마</td>
                             </tr>
                             <tr>
                                 <td><span class="ai-tag">직선주로 스퍼트 최강 🚀</span></td>
-                                <td>결승선 앞 200m(G1F)를 12.8초 이하로 주파하는 막판 뒷심</td>
+                                <td><strong>[경기 후 복기]</strong> 결승선 앞 200m(G1F)를 12.8초 이하로 주파한 탄력마</td>
                             </tr>
                             <tr>
                                 <td><span class="ai-tag gold-tag">초특급 꿀배당 복병 💰</span></td>
@@ -240,10 +232,6 @@
                             <tr>
                                 <td><span class="ai-tag">특급 기수 🏇</span></td>
                                 <td>최근 1년 복승률 25% 이상 최상위 기수 (문세영, 서승운 등)</td>
-                            </tr>
-                            <tr>
-                                <td><span class="ai-tag">상위 기수</span></td>
-                                <td>최근 1년 복승률 20% 이상의 검증된 실력파 기수</td>
                             </tr>
                             <tr>
                                 <td><span class="ai-tag">우수 마방 🏆</span></td>
@@ -265,32 +253,20 @@
                                 <td><span class="ai-tag">승급 첫 도전 🧱</span></td>
                                 <td>직전 경주 1등 후 윗 등급으로 갓 올라온 주의 마필 (-5점)</td>
                             </tr>
-                            <tr>
-                                <td><span class="ai-tag">젖은 주로 선행 유리 🌧️</span></td>
-                                <td>비 온 뒤 모래가 굳어 선행마가 모래 안 맞고 독주 유리</td>
-                            </tr>
                         </tbody>
                     </table>
                 </div>
 
                 <div class="guide-card">
-                    <div class="guide-title">❓ 한 말이 13개 뱃지를 다 받을 수 있나?</div>
+                    <div class="guide-title">❓ 한 말이 뱃지를 다 받을 수 있나?</div>
                     <div class="guide-box warn">
                         <strong>결론: 절대 불가능합니다!</strong><br>
-                        뱃지들 중에는 서로 반대되거나 등급이 나뉜 것들이 있기 때문입니다.
-                    </div>
-                    <div class="guide-text">
-                        • <strong>인기마 vs 복병마</strong>: [대중 강력 지지(3배 이하)]와 [꿀배당 복병(7배 이상)]은 배당이 낮으면서 동시에 높을 수 없으므로 둘 중 하나만 붙습니다.<br>
-                        • <strong>특급 vs 상위 기수</strong>: 기수 등급에 따라 더 높은 하나만 부여됩니다.<br>
-                        • <strong>스피드 최상 vs 기록 우수</strong>: 둘 중 하나만 부여됩니다.<br>
-                        • <strong>실제 최다 뱃지</strong>: 조건이 완벽한 말이라도 <strong>최대 6개~7개</strong>가 한계입니다. 보통 승부마는 <strong>3~4개</strong> 정도 붙습니다.
+                        인기마 vs 복병마, 특급 vs 상위 기수처럼 서로 반대되는 뱃지들이 있기 때문에 이론상 최다 뱃지는 <strong>약 6~7개</strong>입니다.
                     </div>
                 </div>
 
                 <div class="guide-card">
                     <div class="guide-title">🦄 만약 이런 '괴물말'이 출전한다면? (예시)</div>
-                    <div class="guide-text">이론상 가장 완벽한 조건(최대 뱃지 7개)을 타고난 기적의 가상 마필 카드입니다:</div>
-                    
                     <div class="horse-card rank-1" style="margin-top:10px;">
                         <div class="gate-no">1</div>
                         <div class="horse-info">
@@ -301,9 +277,8 @@
                                 <span class="ai-tag">우수 마방 🏆</span>
                                 <span class="ai-tag">단거리 황금게이트 ⚡</span>
                                 <span class="ai-tag">경량 부중(51.0kg) ⚡</span>
-                                <span class="ai-tag gold-tag">스피드 지수 최상(73.2초) 🏎️</span>
+                                <span class="ai-tag gold-tag">과거 스피드 최상(73.2초) 🏎️</span>
                                 <span class="ai-tag">단독 선행 찬스 🚀</span>
-                                <span class="ai-tag">직선주로 스퍼트 최강 🚀</span>
                                 <span class="ai-tag">대중 강력 지지(1.6배) 🔥</span>
                             </div>
                         </div>
@@ -312,9 +287,6 @@
                             <div style="font-size:0.7rem; color:#888;">단승 1.6배</div>
                         </div>
                     </div>
-                    <div class="guide-box gold" style="margin-top:10px;">
-                        💡 이런 말을 발견하시면 주저 없이 그날의 <strong>'절대 축마(기둥)'</strong>로 삼으시면 됩니다!
-                    </div>
                 </div>
             </div>
 
@@ -322,36 +294,29 @@
             <div id="tab-betting" class="tab-content">
                 <div class="guide-card">
                     <div class="guide-title">🟢 1단계: 승부할 경주 고르기 (가장 중요!)</div>
-                    <div class="guide-text">모든 경주에 다 베팅하면 100% 잃습니다. 아래 조건에 맞는 레이스만 골라 승부하세요.</div>
-                    
                     <div class="guide-box">
                         <strong>👍 돈 걸기 딱 좋은 경주 (승부 경주):</strong><br>
                         • 1등 말의 AI 점수가 <strong>85점 이상</strong>으로 높을 때<br>
                         • 1등과 2등의 점수 차이가 <strong>4~5점 이상</strong> 크게 벌어져 있을 때<br>
                         • 1등 말에 <strong>[단독 선행], [특급 기수], [황금게이트]</strong> 등 핵심 뱃지가 2개 이상 달렸을 때
                     </div>
-
                     <div class="guide-box warn">
-                        <strong>⚠️ 돈 걸지 말고 패스할 경주 (위험 관전):</strong><br>
-                        • 1등부터 5등까지 점수가 75점, 74점, 73점처럼 <strong>1~2점 차이로 빽빽할 때</strong><br>
-                        ➔ 대혼전 경주이므로 아무나 들어올 수 있습니다. 그냥 쉬어가세요!
+                        <strong>⚠️ 돈 걸지 말고 패스할 경주:</strong><br>
+                        • 1등부터 5등까지 점수가 <strong>1~2점 차이로 빽빽할 때</strong> (대혼전 레이스이므로 패스!)
                     </div>
                 </div>
 
                 <div class="guide-card">
                     <div class="guide-title">🟢 2단계: 성향별 베팅 승식 선택</div>
-                    
                     <div class="guide-sub">🎯 [A코스: 원금 보존형] - 복연승식 ★★★★★ (초보 강력추천)</div>
                     <div class="guide-text">
                         • <strong>승식</strong>: <strong>「복연승식」</strong> (AI 1위 - 2위 1구멍)<br>
-                        • <strong>적중 조건</strong>: 고른 2마리가 순서 상관없이 <strong>1·2·3착 안에만 둘 다 들어오면 무조건 당첨!</strong><br>
-                        • <strong>장점</strong>: 엉뚱한 복병마가 1등으로 튀어나와도, AI 추천마 2마리가 2착, 3착만 해주면 100% 돈을 땁니다.
+                        • <strong>적중 조건</strong>: 고른 2마리가 순서 상관없이 <strong>1·2·3착 안에만 둘 다 들어오면 무조건 당첨!</strong>
                     </div>
 
                     <div class="guide-sub">💰 [B코스: 표준 수익형] - 복승식 ★★★★☆</div>
                     <div class="guide-text">
-                        • <strong>승식</strong>: <strong>「복승식」</strong> (AI 1위 - 2위 1구멍)<br>
-                        • <strong>적중 조건</strong>: 추천한 2마리가 나란히 <strong>1등과 2등</strong>으로 골인해야 당첨!
+                        • <strong>승식</strong>: <strong>「복승식」</strong> (AI 1위 - 2위 1구멍)
                     </div>
 
                     <div class="guide-sub">🚀 [C코스: 고배당 방어형] - 축마 2구멍 분산 베팅 ★★★★☆</div>
@@ -364,7 +329,6 @@
 
                 <div class="guide-card">
                     <div class="guide-title">🟢 3단계: 실제 마권(전자카드 4.0 앱) 마킹법</div>
-                    <div class="guide-text">한국마사회 공식 앱 '전자카드 4.0'이나 현장 OMR 카드에서 아래 순서대로 누르세요:</div>
                     <div class="guide-box gold">
                         <strong>[실전 마킹 예시: 영천 6경주 기준]</strong><br>
                         1. <strong>경주장</strong>: [영천] (또는 서울, 부경, 제주)<br>
@@ -375,29 +339,13 @@
                         6. <strong>[구매하기]</strong> 클릭!
                     </div>
                 </div>
-
-                <div class="guide-card">
-                    <div class="guide-title">💡 4대 환경 분석 & 자금 관리 황금수칙</div>
-                    <div class="guide-text">
-                        1. <strong>주로 상태(함수율)</strong>: 비 온 날(포화/불량)은 모래가 단단해 앞서 달리는 선행마가 모래를 안 맞아 1착 확률이 급상승합니다.<br>
-                        2. <strong>마체중 급변</strong>: 직전 대비 ±10kg 이상 널뛰기한 인기마는 컨디션 난조로 부러질 확률이 매우 높으니 피하세요.<br>
-                        3. <strong>출전 주기</strong>: 90일 이상 푹 쉬다 나온 장기 휴양마는 실전 호흡이 달려 첫 경기는 거르는 것이 정석입니다.<br>
-                        4. <strong>단독 선행 찬스</strong>: 출전마 중 혼자 선두를 잡는 말은 독주 우승(와이어 투 와이어) 확률이 50% 이상입니다.<br>
-                        5. <strong>자금 관리</strong>: 하루 예산은 <strong>1~2만 원</strong>으로 딱 정해두고 1,000원씩 분산 베팅하며 복기하세요!
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
-    <!-- ======================================================== -->
-    <!-- 자바스크립트 로직 (비밀번호 인증 & 메인 앱) -->
-    <!-- ======================================================== -->
     <script>
-        // 🔒 비밀번호 설정값: 1415
         const CORRECT_PIN = "1415";
 
-        // 페이지 로드 시 자동 인증 체크
         window.addEventListener('DOMContentLoaded', () => {
             if (localStorage.getItem('app_authenticated') === 'true') {
                 unlockApp();
@@ -406,7 +354,6 @@
             }
         });
 
-        // 비밀번호 확인 함수
         function checkPin() {
             const input = document.getElementById('pinInput').value.trim();
             const errEl = document.getElementById('pinErr');
@@ -421,27 +368,21 @@
             }
         }
 
-        // 엔터키 지원
         document.getElementById('pinInput').addEventListener('keyup', (e) => {
             if (e.key === 'Enter') checkPin();
         });
 
-        // 앱 잠금 해제 화면 전환
         function unlockApp() {
             document.getElementById('lockScreen').style.display = 'none';
             document.getElementById('mainApp').style.display = 'block';
             loadData();
         }
 
-        // 다시 화면 잠그기 (헤더의 🔒 버튼 클릭 시)
         function lockApp() {
             localStorage.removeItem('app_authenticated');
             location.reload();
         }
 
-        // ========================================================
-        // 탭 네비게이션
-        // ========================================================
         function switchTab(tabId) {
             document.querySelectorAll('.tab-content').forEach(el => el.classList.remove('active'));
             document.querySelectorAll('.tab-btn').forEach(el => el.classList.remove('active'));
@@ -451,9 +392,6 @@
             window.scrollTo({ top: 0, behavior: 'smooth' });
         }
 
-        // ========================================================
-        // ⚡ 실시간 즉시 갱신
-        // ========================================================
         const GITHUB_OWNER = "toto999-999";
         const GITHUB_REPO = "KRA-AI-V2";
 
@@ -520,9 +458,6 @@
             });
         }
 
-        // ========================================================
-        // 데이터 로드 및 렌더링
-        // ========================================================
         let allRaceData = [];
 
         function loadData() {
@@ -617,7 +552,7 @@
                 let tagsHtml = '';
                 if (h.ai_tags && h.ai_tags.length > 0) {
                     tagsHtml = '<div class="tag-list">' + h.ai_tags.map(t => {
-                        const isGold = t.includes('꿀배당') || t.includes('스피드');
+                        const isGold = t.includes('꿀배당') || t.includes('스피드') || t.includes('과거');
                         return `<span class="ai-tag ${isGold ? 'gold-tag' : ''}">${t}</span>`;
                     }).join('') + '</div>';
                 }
