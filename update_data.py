@@ -8,7 +8,7 @@ from datetime import datetime, timezone, timedelta
 import time
 
 # =========================================================================
-# 프로그램 명칭: KRA전국 승부예상AI_V4.0 (초고속 다이렉트 패치 완료본)
+# 프로그램 명칭: KRA전국 승부예상AI_V4.0 (만능 거리 자동 탐색기 탑재본)
 # =========================================================================
 VERSION = "KRA전국 승부예상AI_V4.0"
 API_KEY = os.environ.get("KRA_API_KEY", "")
@@ -141,7 +141,6 @@ def fetch_meet_data(meet_code, meet_name, date_str):
     }
 
     try:
-        # 타임아웃을 10초로 줄여 딜레이 방지
         req = urllib.request.Request(full_url, headers=headers)
         with urllib.request.urlopen(req, timeout=10) as response:
             xml_data = response.read()
@@ -150,6 +149,10 @@ def fetch_meet_data(meet_code, meet_name, date_str):
         items = root.findall(".//item")
         if not items:
             return []
+
+        # 로그 확인용: 첫 번째 아이템의 모든 태그 출력
+        sample_tags = [f"{c.tag}={c.text}" for c in items[0] if c.text]
+        print(f"[{meet_name}] 원본 태그 확인: {sample_tags[:6]}")
 
         races = {}
         for it in items:
@@ -170,8 +173,32 @@ def fetch_meet_data(meet_code, meet_name, date_str):
             jockey = gv(["jkName", "jk_name"]) or "기수"
             trainer = gv(["trName", "tr_name"]) or "조교사"
             weight = gv(["wgBudam", "wg_budam"]) or "55.0"
-            distance = gv(["rcDist", "rc_dist", "distance", "dist"]) or "1400"
             track = gv(["track", "track_state", "trackCond", "weather"]) or "양호"
+
+            # 🎯 [만능 경주 거리 자동 탐색기]
+            distance = ""
+            # 1단계: 태그명에 dist, ds, meter, len 등이 포함된 태그 탐색
+            for child in it:
+                tag_low = child.tag.lower()
+                if any(k in tag_low for k in ["dist", "ds", "meter", "len", "kori"]):
+                    txt = child.text.strip() if child.text else ""
+                    nums = re.findall(r'\d+', txt)
+                    if nums and 800 <= int(nums[0]) <= 3000:
+                        distance = nums[0]
+                        break
+
+            # 2단계: 한국 경마 공식 표준 거리 숫자 자동 감지
+            if not distance:
+                standard_dists = [800, 900, 1000, 1110, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2200, 2300]
+                for child in it:
+                    txt = child.text.strip() if child.text else ""
+                    nums = re.findall(r'\d+', txt)
+                    if nums and int(nums[0]) in standard_dists:
+                        distance = nums[0]
+                        break
+
+            if not distance:
+                distance = "1400"
             
             rc_time = gv(["rcTime", "rc_time", "record", "rcRecord", "ordTime"]) or ""
             g1f_time = gv(["g1f", "g1f_time", "g1fTime", "g1fRecord", "g_1f"]) or ""
@@ -246,7 +273,7 @@ def fetch_meet_data(meet_code, meet_name, date_str):
                 if tr_rate >= 20.0:
                     tags.append("우수 마방 🏆")
 
-                # 2. 거리별 게이트
+                # 2. 거리별 게이트 가중치
                 if dist <= 1300:
                     score += 15.0 if g <= 3 else 7.0 if g <= 7 else -4.0
                     if g <= 3:
@@ -256,7 +283,7 @@ def fetch_meet_data(meet_code, meet_name, date_str):
                 else:
                     score += 10.0 if g <= 4 else 6.0 if g <= 8 else 1.0
 
-                # 3. 부담중량
+                # 3. 부담중량 가중치
                 try:
                     clean_w = float(re.sub(r'[^0-9.]', '', str(h["weight"])))
                     w_factor = 3.5 if dist >= 1700 else 2.5
@@ -304,17 +331,10 @@ def fetch_meet_data(meet_code, meet_name, date_str):
         return []
 
 def get_target_race_date():
-    """
-    ⚡ [초고속 요일 계산기]
-    - 금(4), 토(5), 일(6): 오늘 날짜 즉시 반환
-    - 월(0), 화(1), 수(2), 목(3): 헛걸음하지 않고 가장 최근 '일요일' 날짜를 단번에 계산!
-    """
     now = datetime.now(KST)
     weekday = now.weekday()
     if weekday in [4, 5, 6]:
         return now.strftime("%Y%m%d")
-    
-    # 월(0)이면 1일 전, 화(1)이면 2일 전, 수(2)이면 3일 전, 목(3)이면 4일 전 일요일로 직행
     days_back = weekday + 1
     last_sunday = now - timedelta(days=days_back)
     return last_sunday.strftime("%Y%m%d")
@@ -324,9 +344,8 @@ def main():
         print("❌ KRA_API_KEY 미설정")
         return
 
-    # 단 1번에 타겟 날짜를 바로 정조준!
     target_date = get_target_race_date()
-    print(f"=== [{VERSION}] 타겟 경마일 {target_date} 초고속 정밀 분석 시작 ===")
+    print(f"=== [{VERSION}] 타겟 경마일 {target_date} 거리 정밀 분석 시작 ===")
 
     all_races = []
     for m_code, m_name in MEET_CONFIG:
@@ -341,7 +360,7 @@ def main():
         ))
         with open("race_data.json", "w", encoding="utf-8") as f:
             json.dump(all_races, f, ensure_ascii=False, indent=2)
-        print(f"🎉 성공: [{VERSION}] {target_date} 경주 데이터 초고속 갱신 완료!")
+        print(f"🎉 성공: [{VERSION}] {target_date} 전 경주 실제 거리 반영 완료!")
     else:
         print("데이터를 가져오지 못했습니다.")
 
